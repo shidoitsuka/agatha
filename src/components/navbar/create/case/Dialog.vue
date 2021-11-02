@@ -1,7 +1,7 @@
 <template>
-  <Dialog :open="isOpen" @close="setIsOpen" style="width: 1064px; height: 780px;" class="fixed inset-0 z-20 flex items-center justify-center min-h-full overflow-y-scroll">
+  <Dialog :open="isOpen" @close="setIsOpen" class="fixed inset-0 z-20 flex items-center justify-center min-h-full overflow-y-scroll">
     <DialogOverlay class="fixed inset-0 opacity-90 bg-base-100" />
-    <div class="z-10 w-11/12 rounded shadow-lg md:w-10/12 bg-base-300 rounded-dialog">
+    <div class="dialog-wraper z-10 w-11/12 rounded shadow-lg md:w-10/12 bg-base-300 rounded-dialog">
       <div class="flex bg-base-300">
         <div class="max-w-xs p-6 space-y-4 overflow-y-scroll bg-base-300" style="height: 600px">
           <h3 class="text-3xl font-semibold">Create a new Case</h3>

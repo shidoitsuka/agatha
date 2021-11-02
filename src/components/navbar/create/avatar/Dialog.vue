@@ -1,5 +1,5 @@
 <template>
-  <Dialog :open="isOpen" style="width: 1064px; height: 780px;" @close="setIsOpen" class="dialog">
+  <Dialog :open="isOpen" @close="setIsOpen" class="dialog">
     <DialogOverlay class="dialog-overlay" />
     <div class="dialog-wraper">
       <div class="flex bg-base-300 rounded-dialog">

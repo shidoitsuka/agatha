@@ -37,6 +37,13 @@
 .rounded-dialog {
   border-radius: 8px;
 }
+
+.dialog-wraper {
+  position: fixed !important;
+  width: 1060px !important;
+  top: 120px !important;
+}
+
 .dialog-header {
   display: flex;
   justify-content: end;
