@@ -4,7 +4,7 @@
     <div class="dialog-wraper">
       <div class="flex bg-base-300 rounded-dialog">
         <div class="max-w-xs p-6 space-y-4" style="height: 680px">
-          <h3 class="text-3xl font-semibold">Create a new Avatar</h3>
+          <h3 class="text-3xl font-semibold pt-5">Create a new Avatar</h3>
           <div class="flex items-stretch gap-2">
             <div
               v-for="step in totalSteps"
@@ -48,8 +48,8 @@
             style="background-color: #202029;"
             class="absolute flex justify-between items-end w-full py-5 px-10 bottom-1 border-t border-base-300"
           >
-            <button class="btn" @click.prevent="previousStep">
-              Previous
+            <button class="btn px-7" @click.prevent="previousStep">
+              <img src="/icons/back-btn.svg" alt="">
             </button>
             <button class="btn btn-primary px-10" @click="nextStep">
               Next

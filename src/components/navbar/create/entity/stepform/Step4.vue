@@ -1,5 +1,5 @@
 <template>
-  <div class="px-10 py-4 overflow-y-scroll bg-base-200 h-full">
+  <div class="px-10 py-4 overflow-y-scroll pt-10 bg-base-200 h-full">
     <div class="grid gap-2 pb-5 border-b place-items-center border-base-300">
       <img class="object-cover w-20 h-20 rounded-full" src="https://images.pexels.com/photos/941693/pexels-photo-941693.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="">
       <div class="items-center space-x-3">

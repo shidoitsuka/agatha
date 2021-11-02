@@ -1,10 +1,10 @@
 <template>
   <Dialog :open="isOpen" @close="setIsOpen" class="fixed inset-0 z-20 flex items-center justify-center overflow-y-scroll">
     <DialogOverlay class="fixed inset-0 opacity-90 bg-base-100" />
-    <div class="dialog-wraper z-10 w-11/12 rounded shadow-lg md:w-10/12 bg-base-300">
-      <div class="flex bg-base-300">
-        <div class="max-w-xs p-6 space-y-4 bg-base-300">
-          <h3 class="text-3xl font-semibold">Create a new Entity</h3>
+    <div class="dialog-wraper z-10 w-11/12 rounded-dialog shadow-lg md:w-10/12">
+      <div class="flex">
+        <div class="max-w-xs p-6 space-y-4">
+          <h3 class="text-3xl font-semibold pt-5">Create a new Entity</h3>
           <p class="dialog-description">An entity card is a knowledge repository about an entity, such a person, location, or organization. It includes metadata collected about the entity.</p>
         </div>
         <div
@@ -42,8 +42,8 @@
             style="background-color: #202029;"
             class="absolute flex justify-between items-end w-full py-5 px-10 bottom-1 border-t border-base-300"
           >
-            <button class="btn" @click.prevent="previousStep">
-              Previous
+            <button class="btn px-7" @click.prevent="previousStep">
+              <img src="/icons/back-btn.svg" alt="">
             </button>
             <button class="btn btn-primary px-10" @click="nextStep">
               Next

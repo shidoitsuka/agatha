@@ -1,5 +1,5 @@
 <template>
-  <div class="px-10 py-4 overflow-y-scroll bg-base-200 h-96">
+  <div class="px-10 py-4 overflow-y-scroll pt-10 bg-base-200 h-96" style="height: 560px;">
     <h3>Select Location</h3>
     <div class="grid grid-cols-2 gap-4">
       <div class="form-control">

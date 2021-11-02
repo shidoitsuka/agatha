@@ -1,5 +1,5 @@
 <template>
-  <div class="px-10 py-4 space-y-4 overflow-y-scroll bg-base-200 ">
+  <div class="px-10 py-4 space-y-4 overflow-y-scroll pt-10 bg-base-200 ">
     <h5>Define Keywords</h5>
     <div class="relative flex items-center justify-between p-3 border rounded-lg border-primary">
       <div class="absolute inset-0 z-0 bg-primary opacity-10"></div>

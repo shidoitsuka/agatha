@@ -1,5 +1,5 @@
 <template>
-  <div class="px-10 py-4 overflow-y-scroll bg-base-200 h-96">
+  <div class="px-10 py-4 overflow-y-scroll pt-10 bg-base-200 h-96">
     <div class="grid gap-2 pb-5 border-b place-items-center border-base-300">
       <img class="w-20 h-20" src="/icons/upload.svg" alt="">
       <button class="capitalize btn bg-base-300">

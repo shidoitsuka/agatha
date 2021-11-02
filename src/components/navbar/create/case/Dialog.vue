@@ -1,10 +1,10 @@
 <template>
   <Dialog :open="isOpen" @close="setIsOpen" class="fixed inset-0 z-20 flex items-center justify-center min-h-full overflow-y-scroll">
     <DialogOverlay class="fixed inset-0 opacity-90 bg-base-100" />
-    <div class="dialog-wraper z-10 w-11/12 rounded shadow-lg md:w-10/12 bg-base-300 rounded-dialog">
-      <div class="flex bg-base-300">
-        <div class="max-w-xs p-6 space-y-4 overflow-y-scroll bg-base-300" style="height: 600px">
-          <h3 class="text-3xl font-semibold">Create a new Case</h3>
+    <div class="dialog-wraper z-10 w-11/12 rounded shadow-lg md:w-10/12 rounded-dialog">
+      <div class="flex">
+        <div class="max-w-xs p-6 space-y-4 overflow-y-scroll" style="height: 600px">
+          <h3 class="text-3xl font-semibold pt-5">Create a new Case</h3>
           <p class="dialog-description">Collect documents on something mentioned significantly in social or other media.</p>
         </div>
         <div class="relative w-full overflow-y-scroll bg-base-200 rounded-dialog" style="height: 680px">
@@ -36,8 +36,8 @@
             </div>
           </div>
            <footer style="background-color: #202029;" class="absolute flex justify-between w-full py-5 px-10 border-t bottom-1 bg-base-200 border-base-300">
-            <button class="btn" @click.prevent="previousStep">
-              Previous
+            <button class="btn px-7" @click.prevent="previousStep">
+              <img src="/icons/back-btn.svg" alt="">
             </button>
             <button class="btn btn-primary px-10" @click="nextStep">
               Next

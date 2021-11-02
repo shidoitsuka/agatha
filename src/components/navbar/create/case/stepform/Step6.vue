@@ -1,5 +1,5 @@
 <template>
-  <div class="px-10 py-4 overflow-y-scroll bg-base-200" style="height: 500px">
+  <div class="px-10 py-4 overflow-y-scroll pt-10 bg-base-200" style="height: 560px">
     <div class="space-y-4 text-center">
       <h5>Suggested Image</h5>
       <div class="max-w-xl mx-auto">

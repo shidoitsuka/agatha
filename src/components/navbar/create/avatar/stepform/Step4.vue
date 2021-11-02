@@ -1,5 +1,5 @@
 <template>
-  <div class="relative px-10 py-4">
+  <div class="relative px-10 pt-10">
     <h5>Connection Information</h5>
     <div class="grid grid-cols-2 gap-3">
       <div class="form-control">
