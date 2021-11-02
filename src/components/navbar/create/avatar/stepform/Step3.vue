@@ -1,5 +1,5 @@
 <template>
-  <div class="px-10 py-4 bg-base-200">
+  <div class="px-10 py-4 overflow-y-scroll bg-base-200" style="height: 520px;">
     <h5>General Information</h5>
     <div class="grid grid-cols-2 gap-3">
       <div class="form-control">

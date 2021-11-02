@@ -41,7 +41,12 @@
 .dialog-wraper {
   position: fixed !important;
   width: 1060px !important;
-  top: 120px !important;
+  top: 80px !important;
+  height: 680px !important;
+}
+
+.fixed-dialog-h {
+  height: 780px !important;
 }
 
 .dialog-header {
@@ -63,8 +68,4 @@
 }
 .case-title, .entity-title {
   font-size: 14px;
-}
-
-* {
-  /* border: 1px solid red; */
 }

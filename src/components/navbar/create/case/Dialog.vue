@@ -7,7 +7,7 @@
           <h3 class="text-3xl font-semibold">Create a new Case</h3>
           <p class="dialog-description">Collect documents on something mentioned significantly in social or other media.</p>
         </div>
-        <div class="relative w-full overflow-y-scroll bg-base-200 rounded-dialog" style="height: 600px">
+        <div class="relative w-full overflow-y-scroll bg-base-200 rounded-dialog" style="height: 680px">
           <div class="dialog-header">
             <button tabindex="0">
               <img src="/icons/close-white.svg" alt="" />

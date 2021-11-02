@@ -7,7 +7,10 @@
           <h3 class="text-3xl font-semibold">Create a new Entity</h3>
           <p class="dialog-description">An entity card is a knowledge repository about an entity, such a person, location, or organization. It includes metadata collected about the entity.</p>
         </div>
-        <div class="w-full bg-base-200">
+        <div
+          class="relative w-full overflow-y-scroll bg-base-200 rounded-dialog"
+          style="height: 680px"
+        >
           <div class="dialog-header">
             <button tabindex="0">
               <img src="/icons/close-white.svg" alt="" />
@@ -35,7 +38,10 @@
               </div>
             </div>
           </div>
-          <footer style="background-color: #202029;" class="flex justify-between py-5 px-10 border-t border-base-300">
+          <footer
+            style="background-color: #202029;"
+            class="absolute flex justify-between items-end w-full py-5 px-10 bottom-1 border-t border-base-300"
+          >
             <button class="btn" @click.prevent="previousStep">
               Previous
             </button>

@@ -37,7 +37,7 @@
     </ul>
   </div>
 
-  <DialogCase :is-open="isOpenCase" :set-is-open="setIsOpenCase" />
+  <DialogCase :is-open="true" :set-is-open="setIsOpenCase" />
   <DialogAvatar :is-open="isOpenAvatar" :set-is-open="setIsOpenAvatar" />
   <DialogEntity :is-open="isOpenEnitity" :set-is-open="setIsOpenEntity" />
 </template>

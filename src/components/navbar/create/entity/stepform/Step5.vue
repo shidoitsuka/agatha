@@ -1,5 +1,5 @@
 <template>
-  <div class="px-10 py-4 overflow-y-scroll bg-base-200 h-96">
+  <div class="px-10 py-4 overflow-y-scroll bg-base-200" style="height: 520px;">
     <TabGroup>
       <TabList class="tabs tab-bordered">
         <Tab v-slot="{ selected }" as="template" class="px-8 py-2">
