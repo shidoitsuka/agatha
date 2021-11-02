@@ -5,6 +5,15 @@
       <div class="flex">
         <div class="max-w-xs p-6 space-y-4">
           <h3 class="text-3xl font-semibold pt-5">Create a new Entity</h3>
+          <div class="flex items-stretch gap-2">
+            <div
+              v-for="step in totalSteps"
+              :key="step"
+              class="w-full h-2 rounded text-accent"
+              style="border: 1px solid;"
+              :class="{ 'bg-accent': step - 1 <= currentStep }"
+            ></div>
+          </div>
           <p class="dialog-description">An entity card is a knowledge repository about an entity, such a person, location, or organization. It includes metadata collected about the entity.</p>
         </div>
         <div
