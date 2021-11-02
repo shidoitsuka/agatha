@@ -8,6 +8,11 @@
           <p class="dialog-description">An entity card is a knowledge repository about an entity, such a person, location, or organization. It includes metadata collected about the entity.</p>
         </div>
         <div class="w-full bg-base-200">
+          <div class="dialog-header">
+            <button tabindex="0">
+              <img src="/icons/close-white.svg" alt="" />
+            </button>
+          </div>
           <div v-for="(fieldKeys, step) in steps" :key="step">
             <div v-if="currentStep === step">
               <div v-if="step == 0">
