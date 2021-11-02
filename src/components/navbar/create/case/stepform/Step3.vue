@@ -3,13 +3,13 @@
     <TabGroup>
       <TabList class="tabs tab-bordered">
         <Tab v-slot="{ selected }" as="template" class="px-8 py-2">
-          <button :class="[selected ? 'bg-accent text-white rounded-t-lg' : '']">Case Info</button>
+          <button :class="[selected ? 'bg-secondary text-white rounded-t-lg' : 'grey-text']">Case Info</button>
         </Tab>
         <Tab v-slot="{ selected }" as="template" class="px-10 py-2">
-          <button :class="[selected ? 'bg-accent text-white rounded-t-lg' : '']">Scheduler Settings</button>
+          <button :class="[selected ? 'bg-secondary text-white rounded-t-lg' : 'grey-text']">Scheduler Settings</button>
         </Tab>
         <Tab v-slot="{ selected }" as="template" class="px-10 py-2">
-          <button :class="[selected ? 'bg-accent text-white rounded-t-lg' : '']">Crawling Sources</button>
+          <button :class="[selected ? 'bg-secondary text-white rounded-t-lg' : 'grey-text']">Crawling Sources</button>
         </Tab>
       </TabList>
       <TabPanels class="mt-5">

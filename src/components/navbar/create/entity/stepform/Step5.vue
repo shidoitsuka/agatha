@@ -3,10 +3,10 @@
     <TabGroup>
       <TabList class="tabs tab-bordered">
         <Tab v-slot="{ selected }" as="template" class="px-8 py-2">
-          <button :class="[selected ? 'bg-accent text-white rounded-t-lg' : '']">General Information</button>
+          <button :class="[selected ? 'bg-secondary text-white rounded-t-lg' : 'grey-text']">General Information</button>
         </Tab>
         <Tab v-slot="{ selected }" as="template" class="px-10 py-2">
-          <button :class="[selected ? 'bg-accent text-white rounded-t-lg' : '']">Target</button>
+          <button :class="[selected ? 'bg-secondary text-white rounded-t-lg' : 'grey-text']">Target</button>
         </Tab>
       </TabList>
       <TabPanels class="mt-5">

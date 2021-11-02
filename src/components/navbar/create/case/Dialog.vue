@@ -1,13 +1,18 @@
 <template>
   <Dialog :open="isOpen" @close="setIsOpen" class="fixed inset-0 z-20 flex items-center justify-center min-h-full overflow-y-scroll">
     <DialogOverlay class="fixed inset-0 opacity-90 bg-base-100" />
-    <div class="z-10 w-11/12 rounded shadow-lg md:w-10/12 bg-base-300">
+    <div class="z-10 w-11/12 rounded shadow-lg md:w-10/12 bg-base-300 rounded-dialog">
       <div class="flex bg-base-300">
         <div class="max-w-xs p-6 space-y-4 overflow-y-scroll bg-base-300" style="height: 600px">
-          <h3 class="text-3xl">Create a new Case</h3>
-          <p>Collect documents on something mentioned significantly in social or other media.</p>
+          <h3 class="text-3xl font-semibold">Create a new Case</h3>
+          <p class="dialog-description">Collect documents on something mentioned significantly in social or other media.</p>
         </div>
-        <div class="relative w-full overflow-y-scroll bg-base-200" style="height: 600px">
+        <div class="relative w-full overflow-y-scroll bg-base-200 rounded-dialog" style="height: 600px">
+          <div class="dialog-header">
+            <button tabindex="0">
+              <img src="/icons/close-white.svg" alt="" />
+            </button>
+          </div>
           <div class="" v-for="(fieldKeys, step) in steps" :key="step">
             <div v-if="currentStep === step">
               <div v-if="step == 0">
@@ -30,7 +35,7 @@
               </div>
             </div>
           </div>
-           <footer class="absolute flex justify-between w-full p-3 border-t bottom-1 bg-base-200 border-base-300">
+           <footer style="background-color: #202029;" class="absolute flex justify-between w-full py-5 px-10 border-t bottom-1 bg-base-200 border-base-300">
             <button class="btn" @click.prevent="previousStep">
               Previous
             </button>

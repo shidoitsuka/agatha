@@ -2,18 +2,32 @@
   <Dialog :open="isOpen" @close="setIsOpen" class="dialog">
     <DialogOverlay class="dialog-overlay" />
     <div class="dialog-wraper">
-      <div class="flex bg-base-300">
+      <div class="flex bg-base-300 rounded-dialog">
         <div class="max-w-xs p-6 space-y-4" style="height: 600px">
-          <h3 class="text-3xl">Create a new Avatar</h3>
+          <h3 class="text-3xl font-semibold">Create a new Avatar</h3>
           <div class="flex items-stretch gap-2">
-            <div v-for="step in totalSteps" :key="step" class="w-full h-2 rounded text-accent" style="border: 1px solid;" :class="{'bg-accent ': step - 1 <= currentStep}"></div>
+            <div
+              v-for="step in totalSteps"
+              :key="step"
+              class="w-full h-2 rounded text-accent"
+              style="border: 1px solid;"
+              :class="{ 'bg-accent': step - 1 <= currentStep }"
+            ></div>
           </div>
-          <p>
-            Avatar is an undercover account that is used to penetrate, observe or communicate with
-            private social media accounts.
+          <p class="dialog-description">
+            Avatar is an undercover account that is used to penetrate, observe
+            or communicate with private social media accounts.
           </p>
         </div>
-        <div class="relative w-full overflow-y-scroll bg-base-200" style="height: 600px">
+        <div
+          class="relative w-full overflow-y-scroll bg-base-200 rounded-dialog"
+          style="height: 600px"
+        >
+          <div class="dialog-header">
+            <button tabindex="0">
+              <img src="/icons/close-white.svg" alt="" />
+            </button>
+          </div>
           <div class="flex-none" v-for="(fieldKeys, step) in steps" :key="step">
             <div v-if="currentStep === step">
               <div v-if="step == 0">
@@ -30,11 +44,14 @@
               </div>
             </div>
           </div>
-          <footer class="absolute flex justify-between w-full p-3 border-t bottom-1 border-base-300">
+          <footer
+            style="background-color: #202029;"
+            class="flex justify-between items-end w-full py-5 px-10 bottom-1 border-t border-base-300"
+          >
             <button class="btn" @click.prevent="previousStep">
               Previous
             </button>
-            <button @click="nextStep" class="btn btn-primary">
+            <button class="btn btn-primary" @click="nextStep">
               Next
             </button>
           </footer>

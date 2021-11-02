@@ -23,3 +23,41 @@
 }
 
 @tailwind utilities;
+
+/* CUSTOM COLORS */
+.softgrey-text {
+  color: #d5d5dc;
+}
+
+.grey-text {
+  color: #b5b5be;
+}
+
+/* DIALOGS */
+.rounded-dialog {
+  border-radius: 8px;
+}
+.dialog-header {
+  display: flex;
+  justify-content: end;
+  padding: 10px 30px 0 30px;
+}
+
+.dialog-description {
+  font-size: 14px;
+  color: #d5d5dc;
+  line-height: 24px;
+}
+
+/* CASE & ENTITY */
+.case-img, .entity-img {
+  width: 56px;
+  heigth: 56px;
+}
+.case-title, .entity-title {
+  font-size: 14px;
+}
+
+* {
+  /* border: 1px solid red; */
+}
