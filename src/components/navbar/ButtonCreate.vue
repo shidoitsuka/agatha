@@ -39,7 +39,7 @@
 
   <DialogCase :is-open="isOpenCase" :set-is-open="setIsOpenCase" />
   <DialogAvatar :is-open="isOpenAvatar" :set-is-open="setIsOpenAvatar" />
-  <DialogEntity :is-open="true" :set-is-open="setIsOpenEntity" />
+  <DialogEntity :is-open="isOpenEnitity" :set-is-open="setIsOpenEntity" />
 </template>
 
 <script>
