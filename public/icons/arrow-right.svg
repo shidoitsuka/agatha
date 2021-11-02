@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
+  <g id="Group_13425" data-name="Group 13425" transform="translate(-510.988 -258.012)">
+    <g id="Dropdown" transform="translate(542.988 258.012) rotate(90)">
+      <path id="Border" d="M16,0A16,16,0,1,1,0,16,16,16,0,0,1,16,0Z" fill="#44444f"/>
+      <path id="Path_127" data-name="Path 127" d="M6.109,8.256,11.1,13.247l4.992-4.992" transform="translate(27.019 26.205) rotate(180)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="2"/>
+    </g>
+  </g>
+</svg>

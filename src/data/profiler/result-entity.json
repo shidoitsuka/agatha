@@ -1,0 +1,80 @@
+[
+    {
+        "type": "PERSON",
+        "name": "David Snowden",
+        "avatar": "https://images.pexels.com/photos/846741/pexels-photo-846741.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+        "status": "N/A",
+        "address": "UAE - SINGAPORE",
+        "socials": [
+            "/social-media/facebook.svg",
+            "/social-media/microsoft.svg",
+            "/social-media/apple.svg",
+            "/social-media/google.svg"
+        ]
+    },
+    {
+        "type": "PERSON",
+        "name": "Samantha Smith",
+        "avatar": "https://images.pexels.com/photos/1036623/pexels-photo-1036623.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+        "status": "0.50",
+        "address": "UKRAINE",
+        "socials": [
+            "/social-media/youtube.svg",
+            "/social-media/whatsapp.svg",
+            "/social-media/linkedin.svg",
+            "/social-media/telegram.svg",
+            "/social-media/apple.svg"
+        ]
+    },
+    {
+        "type": "PERSON",
+        "name": "James Brown",
+        "avatar": "https://images.pexels.com/photos/1222271/pexels-photo-1222271.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+        "status": "0.71",
+        "address": "USA - ENGLAND",
+        "socials": [
+            "/social-media/google.svg",
+            "/social-media/apple.svg",
+            "/social-media/twitter.svg"
+        ]
+    },
+    {
+        "type": "PERSON",
+        "name": "Alexsandr Adrik",
+        "avatar": "https://images.pexels.com/photos/9807589/pexels-photo-9807589.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+        "status": "0.45",
+        "address": "RUSSIA - UKRAINE",
+        "socials": [
+            "/social-media/telegram.svg",
+            "/social-media/facebook.svg",
+            "/social-media/apple.svg"
+        ]
+    },
+    {
+        "type": "PERSON",
+        "name": "Kevin Scott",
+        "isVerif": 1,
+        "avatar": "https://images.pexels.com/photos/9794899/pexels-photo-9794899.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+        "status": "N/A",
+        "address": "NIGERIA",
+        "socials": [
+            "/social-media/twitter.svg",
+            "/social-media/google.svg",
+            "/social-media/microsoft.svg",
+            "/social-media/microsoft.svg"
+        ]
+    },
+    {
+        "type": "PERSON",
+        "name": "Clara Lena",
+        "isVerif": 1,
+        "avatar": "https://images.pexels.com/photos/9807278/pexels-photo-9807278.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+        "status": "N/A",
+        "address": "FRANCE",
+        "socials": [
+            "/social-media/path.svg",
+            "/social-media/yahoo.svg",
+            "/social-media/twitter.svg"
+        ]
+    }
+]

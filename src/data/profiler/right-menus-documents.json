@@ -1,0 +1,48 @@
+{
+  "tags": [
+    "Lindlay Mills",
+    "Snowden",
+    "CIA",
+    "Eric",
+    "Agent",
+    "Former CIA",
+    "FBI"
+  ],
+  "authors": [
+    {
+      "name": "Geri A. Beeson",
+      "avatar": "https://images.pexels.com/photos/1182825/pexels-photo-1182825.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+      "count": 120,
+      "proggress": 80
+    },
+    {
+      "name": "Ellen Hatfield",
+      "avatar": "https://images.pexels.com/photos/2379005/pexels-photo-2379005.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+      "count": 115,
+      "proggress": 65
+    },
+    {
+      "name": "Mai Boykin",
+      "avatar": "https://images.pexels.com/photos/709188/pexels-photo-709188.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+      "count": 95,
+      "proggress": 30
+    }
+  ],
+  "websites": [
+    {
+      "name": "edition.cnn.com",
+      "count": 192,
+      "proggress": 40
+    },
+    {
+      "name": "facebook.com",
+      "count": 83,
+      "proggress": 74
+    },
+    {
+      "name": "linkedin.com",
+      "count": 72,
+      "proggress": 70
+    }
+  ]
+}

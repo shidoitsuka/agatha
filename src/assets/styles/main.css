@@ -1,0 +1,25 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@200;300;400;500;600;700&display=swap");
+
+@tailwind base;
+@tailwind components;
+.btn {
+  @apply capitalize;
+}
+
+.dialog {
+  @apply fixed inset-0 z-20 flex items-center justify-center min-h-full overflow-y-scroll;
+}
+
+.dialog-overlay {
+  @apply fixed inset-0 opacity-90 bg-base-100;
+}
+
+.dialog-wraper {
+  @apply z-10 w-11/12 rounded shadow-lg md:w-10/12 bg-base-300;
+}
+
+.label-text {
+  @apply text-agatha-400 text-sm;
+}
+
+@tailwind utilities;

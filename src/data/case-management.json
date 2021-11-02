@@ -1,0 +1,53 @@
+[
+    {
+        "isVerif": true,
+        "avatar": "https://images.pexels.com/photos/1464230/pexels-photo-1464230.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+        "title": "This is my case title",
+        "created": "Yesterday at 23.22",
+        "negative": 872,
+        "neutral": 1072,
+        "positive": 45
+    },
+    {
+        "avatar": "https://images.pexels.com/photos/2348817/pexels-photo-2348817.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+        "title": "This is my case title",
+        "created": "Yesterday at 23.22",
+        "negative": 872,
+        "neutral": 1072,
+        "positive": 45
+    },
+    {
+        "isVerif": true,
+        "avatar": "https://images.pexels.com/photos/70573/fireman-firefighter-rubble-9-11-70573.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+        "title": "This is my case title",
+        "created": "Yesterday at 23.22",
+        "negative": 872,
+        "neutral": 1072,
+        "positive": 45
+    },
+    {
+        "isVerif": true,
+        "avatar": "https://images.pexels.com/photos/163489/war-desert-guns-gunshow-163489.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+        "title": "This is my case title",
+        "created": "Yesterday at 23.22",
+        "negative": 872,
+        "neutral": 1072,
+        "positive": 45
+    },
+    {
+        "avatar": "https://images.pexels.com/photos/2834173/pexels-photo-2834173.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+        "title": "This is my case title",
+        "created": "Yesterday at 23.22",
+        "negative": 872,
+        "neutral": 1072,
+        "positive": 45
+    },
+    {
+        "avatar": "https://images.pexels.com/photos/3457340/pexels-photo-3457340.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+        "title": "This is my case title",
+        "created": "Yesterday at 23.22",
+        "negative": 872,
+        "neutral": 1072,
+        "positive": 45
+    }
+]

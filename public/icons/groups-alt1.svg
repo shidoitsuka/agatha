@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="56" height="56" viewBox="0 0 56 56">
+  <g id="Group_13410" data-name="Group 13410" transform="translate(-455 -371)">
+    <circle id="ZeonDownloader_-_1065697716" data-name="ZeonDownloader - 1065697716" cx="28" cy="28" r="28" transform="translate(455 371)" fill="#292932"/>
+    <g id="Group_3996" data-name="Group 3996" transform="translate(464 367.199)">
+      <circle id="Ellipse_105" data-name="Ellipse 105" cx="4.787" cy="4.787" r="4.787" transform="translate(14.107 21.8)" fill="#fafafb"/>
+      <circle id="Ellipse_106" data-name="Ellipse 106" cx="4.787" cy="4.787" r="4.787" transform="translate(14.107 21.8)" fill="#fafafb"/>
+      <circle id="Ellipse_107" data-name="Ellipse 107" cx="3.449" cy="3.449" r="3.449" transform="translate(25.475 24.052)" fill="#fafafb"/>
+      <path id="Path_1433" data-name="Path 1433" d="M80.64,48.8a5.283,5.283,0,0,1-3.66,1.478,6.857,6.857,0,0,1-.88-.07,7.606,7.606,0,0,1,2.217,5.174v.387c4.012,0,5.526-.035,5.526-2.675C83.808,51.334,82.4,49.785,80.64,48.8Z" transform="translate(-48.021 -17.497)" fill="#fafafb"/>
+      <circle id="Ellipse_108" data-name="Ellipse 108" cx="3.449" cy="3.449" r="3.449" transform="translate(5.414 24.052)" fill="#fafafb"/>
+      <path id="Path_1434" data-name="Path 1434" d="M9.743,50.208a3.715,3.715,0,0,1-.88.07A5.283,5.283,0,0,1,5.2,48.8C3.408,49.785,2,51.334,2,53.129,2,55.8,3.337,55.839,7.526,55.8v-.387A7.529,7.529,0,0,1,9.743,50.208Z" transform="translate(0 -17.497)" fill="#fafafb"/>
+      <path id="Path_1435" data-name="Path 1435" d="M37.687,50.606l-.211-.106a7.428,7.428,0,0,1-5.1,2.076,7.21,7.21,0,0,1-5.1-2.076l-.211.106C24.7,51.978,22.8,54.09,22.8,56.518v.387c.141,3.1,1.83,3.344,6.617,3.344h5.807c4.646,0,6.581-.246,6.722-3.344v-.387C41.946,54.09,40.046,51.978,37.687,50.606Z" transform="translate(-13.479 -18.599)" fill="#fafafb"/>
+    </g>
+  </g>
+</svg>

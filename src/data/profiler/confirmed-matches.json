@@ -1,0 +1,132 @@
+[
+    {
+        "id": 1,
+        "name": "John Doe",
+        "username": "johndoe",
+        "avatar": "http://daisyui.com/tailwind-css-component-profile-1@94w.png",
+        "type": "Person",
+        "countries": [
+            "Singapore",
+            "Melbourne",
+            "Australia"
+        ],
+        "socials": [
+            {
+                "name": "Facebook",
+                "url": "https: //www.facebook.com/davidusername",
+                "icon": "/social-media/facebook.svg"
+            },
+            {
+                "name": "Twitter",
+                "url": "https: //twitter.com/davidusername",
+                "icon": "/social-media/twitter.svg"
+            },
+            {
+                "name": "Instagram",
+                "url": "https: //www.instagram.com/davidusername",
+                "icon": "/social-media/apple.svg"
+            },
+            {
+                "name": "Youtube",
+                "url": "https: //www.youtube.com/davidusername",
+                "icon": "/social-media/youtube.svg"
+            },
+            {
+                "name": "Microsoft",
+                "url": "https: //www.microsoft.com/davidusername",
+                "icon": "/social-media/microsoft.svg"
+            },
+            {
+                "name": "Whatsapp",
+                "url": "https: //www.whatsapp.com/davidusername",
+                "icon": "/social-media/whatsapp.svg"
+            },
+            {
+                "name": "Google",
+                "url": "https: //www.google.com/davidusername",
+                "icon": "/social-media/google.svg"
+            },
+            {
+                "name": "Telegram",
+                "url": "https: //www.telegram.com/davidusername",
+                "icon": "/social-media/telegram.svg"
+            },
+            {
+                "name": "Pinterest",
+                "url": "https: //www.pinterest.com/davidusername",
+                "icon": "/social-media/path.svg"
+            }
+        ],
+        "phones": [
+            "(555) 519-3123",
+            "(555) 519-203-2139",
+            "(201) 291-2312"
+        ]
+    },
+    {
+        "id": 2,
+        "name": "David Snowden",
+        "username": "davidusername",
+        "avatar": "http://daisyui.com/tailwind-css-component-profile-5@40w.png",
+        "type": "Person",
+        "countries": [
+            "Singapore",
+            "Melbourne",
+            "State of Victoria"
+        ],
+        "socials": [
+            {
+                "name": "Facebook",
+                "url": "https: //www.facebook.com/davidusername",
+                "icon": "/social-media/facebook.svg"
+            },
+            {
+                "name": "Twitter",
+                "url": "https: //twitter.com/davidusername",
+                "icon": "/social-media/twitter.svg"
+            },
+            {
+                "name": "Instagram",
+                "url": "https: //www.instagram.com/davidusername",
+                "icon": "/social-media/apple.svg"
+            },
+            {
+                "name": "Youtube",
+                "url": "https: //www.youtube.com/davidusername",
+                "icon": "/social-media/youtube.svg"
+            },
+            {
+                "name": "Microsoft",
+                "url": "https: //www.microsoft.com/davidusername",
+                "icon": "/social-media/microsoft.svg"
+            },
+            {
+                "name": "Whatsapp",
+                "url": "https: //www.whatsapp.com/davidusername",
+                "icon": "/social-media/whatsapp.svg"
+            },
+            {
+                "name": "Google",
+                "url": "https: //www.google.com/davidusername",
+                "icon": "/social-media/google.svg"
+            },
+            {
+                "name": "Telegram",
+                "url": "https: //www.telegram.com/davidusername",
+                "icon": "/social-media/telegram.svg"
+            },
+            {
+                "name": "Pinterest",
+                "url": "https: //www.pinterest.com/davidusername",
+                "icon": "/social-media/path.svg"
+            }
+        ],
+        "phones": [
+            "(555) 519-3123",
+            "(555) 519-3123",
+            "(555) 519-3123",
+            "(555) 519-203-2139",
+            "(201) 291-2312"
+        ]
+    }
+]

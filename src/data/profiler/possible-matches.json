@@ -1,0 +1,79 @@
+[
+    {
+        "id": 1,
+        "name": "Gavin Belson",
+        "username": "gavin",
+        "avatar": "https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+        "type": "Person",
+        "countries": [
+            "Singapore",
+            "North America"
+        ],
+        "socials": [
+            {
+                "name": "Facebook",
+                "url": "https: //www.facebook.com/davidusername",
+                "icon": "/social-media/facebook.svg"
+            },
+            {
+                "name": "Twitter",
+                "url": "https: //twitter.com/davidusername",
+                "icon": "/social-media/twitter.svg"
+            },
+            {
+                "name": "Instagram",
+                "url": "https: //www.instagram.com/davidusername",
+                "icon": "/social-media/apple.svg"
+            }
+        ],
+        "phones": []
+    },
+    {
+        "id": 2,
+        "name": "Richard Hendrick",
+        "username": "richard",
+        "avatar": "https://images.pexels.com/photos/594610/pexels-photo-594610.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+        "type": "Person",
+        "countries": [
+            "Singapore",
+            "State of Victoria"
+        ],
+        "socials": [
+            {
+                "name": "Facebook",
+                "url": "https: //www.facebook.com/davidusername",
+                "icon": "/social-media/facebook.svg"
+            },
+            {
+                "name": "Twitter",
+                "url": "https: //twitter.com/davidusername",
+                "icon": "/social-media/twitter.svg"
+            }
+        ],
+        "phones": []
+    },
+    {
+        "id": 3,
+        "name": "Bighead",
+        "username": "bighead",
+        "avatar": "https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+        "type": "Person",
+        "countries": [
+            "Singapore",
+            "State of Victoria"
+        ],
+        "socials": [
+            {
+                "name": "Facebook",
+                "url": "https: //www.facebook.com/davidusername",
+                "icon": "/social-media/facebook.svg"
+            },
+            {
+                "name": "Twitter",
+                "url": "https: //twitter.com/davidusername",
+                "icon": "/social-media/twitter.svg"
+            }
+        ],
+        "phones": []
+    }
+]

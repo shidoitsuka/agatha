@@ -1,0 +1,38 @@
+[
+    {
+        "type": "TARGET",
+        "name": "Hacking Intel",
+        "count": 5,
+        "created": "2020-11-23"
+    },
+    {
+        "type": "CASE",
+        "name": "Covid19 Virus Studies",
+        "count": 32,
+        "created": "2020-11-23"
+    },
+    {
+        "type": "CASE",
+        "name": "Iraq Avatars",
+        "count": 102,
+        "created": "2020-11-23"
+    },
+    {
+        "type": "AVATAR",
+        "name": "Atacking Crew",
+        "count": 11,
+        "created": "2020-11-23"
+    },
+    {
+        "type": "TARGET",
+        "name": "Threat Society",
+        "count": 64,
+        "created": "2020-11-23"
+    },
+    {
+        "type": "AVATAR",
+        "name": "Bad Influence",
+        "count": 65,
+        "created": "2020-11-23"
+    }
+]

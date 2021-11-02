@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
+  <g id="Clear_proxy_settings" data-name="Clear proxy settings" transform="translate(-15 -13.002)">
+    <circle id="Ellipse_110" data-name="Ellipse 110" cx="16" cy="16" r="16" transform="translate(15 13.002)" fill="#44444f"/>
+    <g id="noun_proxy_2146851" transform="translate(13.042 -12.705)">
+      <g id="Group_4033" data-name="Group 4033" transform="translate(10.5 36.7)">
+        <path id="Path_1439" data-name="Path 1439" d="M24.285,36.7H11.552A1.05,1.05,0,0,0,10.5,37.752v2.911a1.05,1.05,0,0,0,1.052,1.052h5.8v2.873a1.774,1.774,0,0,0-1.146,1.164H12.528a.563.563,0,0,0,0,1.127h3.681a1.79,1.79,0,0,0,3.418,0h3.681a.563.563,0,0,0,0-1.127H19.627a1.842,1.842,0,0,0-1.164-1.164V41.714h5.8a1.05,1.05,0,0,0,1.052-1.052V37.752A1.023,1.023,0,0,0,24.285,36.7ZM17.918,46.992a.695.695,0,1,1,.695-.695A.706.706,0,0,1,17.918,46.992Zm-5-7.1a.714.714,0,1,1,.714-.714A.726.726,0,0,1,12.923,39.893Zm2.5,0a.714.714,0,1,1,.714-.714A.713.713,0,0,1,15.421,39.893Z" transform="translate(-10.5 -36.7)" fill="#fafafb"/>
+      </g>
+    </g>
+  </g>
+</svg>

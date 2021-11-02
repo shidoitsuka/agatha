@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
+  <g id="Group_13448" data-name="Group 13448" transform="translate(-674 -1542)">
+    <g id="Input" transform="translate(674 1542)" fill="rgba(0,180,154,0)" stroke="#292932" stroke-width="1">
+      <rect width="32" height="32" rx="8" stroke="none"/>
+      <rect x="0.5" y="0.5" width="31" height="31" rx="7.5" fill="none"/>
+    </g>
+    <g id="noun_desktop_3090425" transform="translate(682.151 1550)">
+      <g id="Group_4204" data-name="Group 4204">
+        <g id="Group_4203" data-name="Group 4203">
+          <g id="Group_4202" data-name="Group 4202">
+            <path id="Path_1503" data-name="Path 1503" d="M58.453,7009.438a.8.8,0,0,1-.8.8H46.414a.8.8,0,0,1-.8-.8v-8.029a.8.8,0,0,1,.8-.8H57.651a.8.8,0,0,1,.8.8ZM58.445,6999H45.6a1.617,1.617,0,0,0-1.6,1.622l.006.017v9.635l-.006-.016a1.585,1.585,0,0,0,1.6,1.59h4.816a.828.828,0,0,1,.814.819v-.009a.806.806,0,0,1-.814.795H48.008a.809.809,0,0,0-.791.819v-.007a.788.788,0,0,0,.791.795h8.026a.8.8,0,0,0,.814-.788v-.007a.821.821,0,0,0-.814-.812H53.626a.781.781,0,0,1-.791-.786v-.009a.8.8,0,0,1,.791-.811h4.819l.006.017a1.593,1.593,0,0,0,1.608-1.59h0v-9.635h0a1.62,1.62,0,0,0-1.608-1.622Z" transform="translate(-44 -6999)" fill="#fafafb"/>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

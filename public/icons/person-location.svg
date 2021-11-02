@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <g id="Group_13402" data-name="Group 13402" transform="translate(-614.705 -1020.129)">
+    <rect id="Rectangle_752" data-name="Rectangle 752" width="24" height="24" transform="translate(614.705 1020.129)" fill="#92929d" opacity="0"/>
+    <circle id="Ellipse_111" data-name="Ellipse 111" cx="2.455" cy="2.455" r="2.455" transform="translate(624.25 1023.102)" fill="#fafafb"/>
+    <path id="Path_1501" data-name="Path 1501" d="M5.561,10.608h.628l.445,3.477A1.12,1.12,0,0,0,7.751,15.1H8.98a1.116,1.116,0,0,0,1.115-.995l.446-3.492h.628a.559.559,0,0,0,.421-.191.552.552,0,0,0,.136-.442L11.216,6.01A1.117,1.117,0,0,0,10.1,5H6.63a1.115,1.115,0,0,0-1.115.995L5,9.977a.562.562,0,0,0,.556.632Z" transform="translate(618.34 1024.559)" fill="#fafafb"/>
+    <path id="Path_1502" data-name="Path 1502" d="M17.919,16.114l-2.243-6.73A.563.563,0,0,0,15.143,9H13.46v1.122h1.279l1.87,5.608H1.339l1.87-5.608H4.487V9H2.8a.561.561,0,0,0-.532.384L.029,16.114a.56.56,0,0,0,.532.738H17.386a.563.563,0,0,0,.533-.738Z" transform="translate(617.732 1025.045)" fill="#fafafb"/>
+  </g>
+</svg>

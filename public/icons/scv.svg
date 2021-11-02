@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48">
+  <g id="Group_13478" data-name="Group 13478" transform="translate(-439 -412)">
+    <g id="_29841444_6082170269648_2473471794615418880_n" data-name="29841444_6082170269648_2473471794615418880_n" transform="translate(439 412)" fill="#00b49a" stroke="#292932" stroke-width="4">
+      <circle cx="24" cy="24" r="24" stroke="none"/>
+      <circle cx="24" cy="24" r="22" fill="none"/>
+    </g>
+    <path id="Shape" d="M31.458,12.531H21.479A2.48,2.48,0,0,1,19,10.051V0L31.458,12.531Z" transform="translate(450.272 413.969)" fill="#dbecff"/>
+    <text id="scv" transform="translate(450.5 441.5)" fill="#fff" font-size="16" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">scv</tspan></text>
+  </g>
+</svg>

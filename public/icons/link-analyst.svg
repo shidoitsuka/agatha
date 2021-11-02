@@ -1,0 +1,11 @@
+<svg id="link_Analysis" data-name="link Analysis" xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 28 28">
+  <circle id="Ellipse_110" data-name="Ellipse 110" cx="14" cy="14" r="14" fill="#44444f"/>
+  <g id="noun_analysis_853968" transform="translate(4.523 5.445)">
+    <path id="Path_1472" data-name="Path 1472" d="M8.82,1.2a6.42,6.42,0,1,0,3.287,11.918l.292-.184,1.454,1.454a.952.952,0,0,0,1.628-.676.993.993,0,0,0-.276-.676l-1.362-1.392.292-.445A6.4,6.4,0,0,0,8.82,1.2Zm0,11.227A4.823,4.823,0,1,1,13.642,7.6,4.831,4.831,0,0,1,8.82,12.427Z" transform="translate(0.735 0.757)" fill="#fafafb"/>
+    <g id="noun_dashboard_3324973" transform="translate(7.259 6.092)">
+      <g id="Group_4071" data-name="Group 4071">
+        <path id="Path_1468" data-name="Path 1468" d="M11.754,13.532v1.74a.5.5,0,0,0,.992,0v-1.74a.5.5,0,0,0-.992,0Zm2.418-2.15a.5.5,0,0,0-.5.5v3.394a.5.5,0,0,0,.992,0V11.878a.5.5,0,0,0-.5-.5Zm1.919,4.387a.5.5,0,0,0,.5-.5V12.54a.5.5,0,0,0-.992,0v2.732A.5.5,0,0,0,16.091,15.769Z" transform="translate(-11.754 -11.382)" fill="#fafafb"/>
+      </g>
+    </g>
+  </g>
+</svg>

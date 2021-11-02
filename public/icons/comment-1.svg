@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
+  <g id="Group_13444" data-name="Group 13444" transform="translate(-1164 -1543)">
+    <g id="Input" transform="translate(1164 1543)" fill="rgba(0,180,154,0)" stroke="#292932" stroke-width="1" opacity="0">
+      <rect width="32" height="32" rx="8" stroke="none"/>
+      <rect x="0.5" y="0.5" width="31" height="31" rx="7.5" fill="none"/>
+    </g>
+    <path id="comment" d="M8.568,0C3.82,0,0,3.367,0,7.511a7.257,7.257,0,0,0,3.177,5.87l.133,2.808c.025.523.385.694.8.382l2.311-1.722a8.667,8.667,0,0,0,2.142.216c4.748,0,8.568-3.367,8.568-7.511S13.316,0,8.568,0Z" transform="translate(1171.432 1550.637)" fill="#fafafb"/>
+  </g>
+</svg>

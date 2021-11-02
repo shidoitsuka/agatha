@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
+  <g id="Group_13440" data-name="Group 13440" transform="translate(-1023 -1543)">
+    <g id="Input" transform="translate(1023 1543)" fill="rgba(0,180,154,0)" stroke="#292932" stroke-width="1" opacity="0">
+      <rect width="32" height="32" rx="8" stroke="none"/>
+      <rect x="0.5" y="0.5" width="31" height="31" rx="7.5" fill="none"/>
+    </g>
+    <g id="Group_4254" data-name="Group 4254" transform="translate(44.679 1434)">
+      <g id="Group_4252" data-name="Group 4252">
+        <g id="noun_opposite_1748487" transform="translate(1025.343 118.539) rotate(90)">
+          <g id="Group_4251" data-name="Group 4251" transform="translate(2.525 37.525)">
+            <path id="Path_1520" data-name="Path 1520" d="M46.6,18.129l-1.485-1.478a.1.1,0,0,0-.137,0l-.357.357a.1.1,0,0,0,0,.137l.708.708H39.2a.094.094,0,0,0-.1.1v.509a.094.094,0,0,0,.1.1h6.139l-.708.7a.1.1,0,0,0,0,.137l.357.357a.1.1,0,0,0,.137,0L46.6,18.273A.114.114,0,0,0,46.6,18.129Z" transform="translate(-38.39 -16.625)" fill="#fafafb"/>
+            <path id="Path_1521" data-name="Path 1521" d="M3.823,38.754l.708-.708a.1.1,0,0,0,0-.137l-.357-.357a.1.1,0,0,0-.137,0L2.551,39.036a.1.1,0,0,0,0,.137l1.478,1.478a.1.1,0,0,0,.137,0l.357-.357a.1.1,0,0,0,0-.137l-.7-.7Z" transform="translate(-2.525 -37.525)" fill="#fafafb"/>
+          </g>
+        </g>
+        <circle id="Ellipse_113" data-name="Ellipse 113" cx="2.5" cy="2.5" r="2.5" transform="translate(983.742 130.967)" fill="#fff"/>
+        <circle id="Ellipse_114" data-name="Ellipse 114" cx="2.5" cy="2.5" r="2.5" transform="translate(983.742 114.397)" fill="#fff"/>
+      </g>
+      <g id="Group_4253" data-name="Group 4253" transform="translate(15.658)">
+        <g id="noun_opposite_1748487-2" data-name="noun_opposite_1748487" transform="translate(1025.843 118.539) rotate(90)">
+          <g id="Group_4251-2" data-name="Group 4251" transform="translate(2.525 37.525)">
+            <path id="Path_1520-2" data-name="Path 1520" d="M46.6,18.129l-1.485-1.478a.1.1,0,0,0-.137,0l-.357.357a.1.1,0,0,0,0,.137l.708.708H39.2a.094.094,0,0,0-.1.1v.509a.094.094,0,0,0,.1.1h6.139l-.708.7a.1.1,0,0,0,0,.137l.357.357a.1.1,0,0,0,.137,0L46.6,18.273A.114.114,0,0,0,46.6,18.129Z" transform="translate(-38.39 -16.625)" fill="#fafafb"/>
+            <path id="Path_1521-2" data-name="Path 1521" d="M3.823,38.754l.708-.708a.1.1,0,0,0,0-.137l-.357-.357a.1.1,0,0,0-.137,0L2.551,39.036a.1.1,0,0,0,0,.137l1.478,1.478a.1.1,0,0,0,.137,0l.357-.357a.1.1,0,0,0,0-.137l-.7-.7Z" transform="translate(-2.525 -37.525)" fill="#fafafb"/>
+          </g>
+        </g>
+        <circle id="Ellipse_113-2" data-name="Ellipse 113" cx="2.5" cy="2.5" r="2.5" transform="translate(984.242 130.967)" fill="#fff"/>
+        <circle id="Ellipse_114-2" data-name="Ellipse 114" cx="2.5" cy="2.5" r="2.5" transform="translate(984.242 114.397)" fill="#fff"/>
+      </g>
+      <g id="noun_opposite_1748487-3" data-name="noun_opposite_1748487" transform="translate(1000.96 156.177) rotate(180)">
+        <g id="Group_4251-3" data-name="Group 4251" transform="translate(2.525 37.525)">
+          <path id="Path_1520-3" data-name="Path 1520" d="M46.6,18.129l-1.485-1.478a.1.1,0,0,0-.137,0l-.357.357a.1.1,0,0,0,0,.137l.708.708H39.2a.094.094,0,0,0-.1.1v.509a.094.094,0,0,0,.1.1h6.139l-.708.7a.1.1,0,0,0,0,.137l.357.357a.1.1,0,0,0,.137,0L46.6,18.273A.114.114,0,0,0,46.6,18.129Z" transform="translate(-38.39 -16.625)" fill="#fafafb"/>
+          <path id="Path_1521-3" data-name="Path 1521" d="M3.823,38.754l.708-.708a.1.1,0,0,0,0-.137l-.357-.357a.1.1,0,0,0-.137,0L2.551,39.036a.1.1,0,0,0,0,.137l1.478,1.478a.1.1,0,0,0,.137,0l.357-.357a.1.1,0,0,0,0-.137l-.7-.7Z" transform="translate(-2.525 -37.525)" fill="#fafafb"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

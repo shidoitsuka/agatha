@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="56" height="56" viewBox="0 0 56 56">
+  <g id="facebook_event" data-name="facebook event" transform="translate(-93 -31)">
+    <rect id="Rectangle_369" data-name="Rectangle 369" width="56" height="56" rx="28" transform="translate(93 31)" fill="#1c1c24"/>
+    <g id="Group_3534" data-name="Group 3534" transform="translate(106.831 44.813)">
+      <g id="Group_3535" data-name="Group 3535" transform="translate(3.2 2.5)">
+        <path id="Path_1350" data-name="Path 1350" d="M23.076,4.982H21.787V3.716A1.22,1.22,0,0,0,20.571,2.5H18.6a1.22,1.22,0,0,0-1.216,1.216V4.957H11.812V3.716A1.22,1.22,0,0,0,10.6,2.5H8.625A1.22,1.22,0,0,0,7.409,3.716V4.957H6.119A2.928,2.928,0,0,0,3.2,7.877v14.84a2.9,2.9,0,0,0,2.9,2.9H23.076a2.9,2.9,0,0,0,2.9-2.9V7.877A2.886,2.886,0,0,0,23.076,4.982Zm.781,17.884a.6.6,0,0,1-.608.608H5.947a.6.6,0,0,1-.608-.608V8.012A.6.6,0,0,1,5.947,7.4h17.3a.6.6,0,0,1,.608.608Z" transform="translate(-3.2 -2.5)" fill="#fafafb"/>
+      </g>
+      <path id="Path_921" data-name="Path 921" d="M4587.327,962.131h.825v-1.608a10.06,10.06,0,0,0-1.463-.128,2.306,2.306,0,0,0-2.469,2.543v1.44h-1.66v1.889h1.66v4.568a4.822,4.822,0,0,0,2.093-.006v0l-.051.009v-4.568h1.523l.29-1.889h-1.812v-1.226A.944.944,0,0,1,4587.327,962.131Z" transform="translate(-4570.89 -950.258)" fill="#fafafb"/>
+    </g>
+  </g>
+</svg>

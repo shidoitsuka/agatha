@@ -1,0 +1,13 @@
+[
+    { "name": "Schema", "child": [ { "name": "Link", "url": "#" } ] },
+    { "name": "Document Type", "child": [ { "name": "Link", "url": "#" }] },
+    { "name": "Properties", "child": [ { "name": "Link", "url": "#" }] },
+    { "name": "Date Range", "child": [ { "name": "Link", "url": "#" }] },
+    { "name": "Day of Week", "child": [ { "name": "Link", "url": "#" }] },
+    { "name": "Document Sentiment", "child": [ { "name": "Link", "url": "#" }] },
+    { "name": "Document Credibility", "child": [ { "name": "Link", "url": "#" }] },
+    { "name": "Languages", "child": [ { "name": "Link", "url": "#" }] },
+    { "name": "Countries", "child": [ { "name": "Link", "url": "#" }] },
+    { "name": "Categorized Documents", "child": [ { "name": "Link", "url": "#" }] },
+    { "name": "Dynamic Filters", "child": [ { "name": "Link", "url": "#" }] }
+]

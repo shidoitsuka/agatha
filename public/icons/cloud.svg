@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40">
+  <g id="cloud" transform="translate(-1044 -15)">
+    <g id="Rectangle_135" data-name="Rectangle 135" transform="translate(1044 15)" fill="rgba(41,41,50,0)" stroke="#292932" stroke-width="1">
+      <rect width="40" height="40" rx="20" stroke="none"/>
+      <rect x="0.5" y="0.5" width="39" height="39" rx="19.5" fill="none"/>
+    </g>
+    <g id="Group_4044" data-name="Group 4044" transform="translate(1052.596 24.463)">
+      <path id="Path_1447" data-name="Path 1447" d="M7.094,16.211A4.625,4.625,0,0,1,2.4,11.719,4.582,4.582,0,0,1,7.094,7.227a9.615,9.615,0,0,1,3.218.4A5.4,5.4,0,0,0,7.094,6.623h-.2A4.641,4.641,0,0,1,11.519,2.6a4.953,4.953,0,0,1,4.694,4.761h.469a4.433,4.433,0,0,1,3.956,4.425,4.582,4.582,0,0,1-4.694,4.492Z" transform="translate(0 0.806)" fill="#fafafb"/>
+    </g>
+  </g>
+</svg>

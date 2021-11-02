@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40">
+  <g id="notification" transform="translate(-1044 -15)">
+    <g id="Rectangle_135" data-name="Rectangle 135" transform="translate(1044 15)" fill="rgba(41,41,50,0)" stroke="#292932" stroke-width="1">
+      <rect width="40" height="40" rx="20" stroke="none"/>
+      <rect x="0.5" y="0.5" width="39" height="39" rx="19.5" fill="none"/>
+    </g>
+    <g id="Group_3630" data-name="Group 3630" transform="translate(-51.653 2.347)">
+      <g id="Group_1333" data-name="Group 1333" transform="translate(1106.265 23.264)">
+        <g id="Rectangle_108" data-name="Rectangle 108" transform="translate(0.388 0.389)" fill="#1c1c24" stroke="#707070" stroke-width="1" opacity="0">
+          <rect width="18" height="18" stroke="none"/>
+          <rect x="0.5" y="0.5" width="17" height="17" fill="none"/>
+        </g>
+        <path id="Union_5" data-name="Union 5" d="M4.817,14.6H9.368a2.276,2.276,0,1,1-4.552,0ZM.527,13.319A.523.523,0,0,1,0,12.783v-.746A1.257,1.257,0,0,1,.527,11l.523-.373a4.241,4.241,0,0,0,1.787-3.1L3.011,5.5A4.137,4.137,0,0,1,6.146,1.831V.961a.946.946,0,1,1,1.893,0v.87A4.133,4.133,0,0,1,11.174,5.5l.174,2.031a4.3,4.3,0,0,0,1.787,3.1l.527.373a1.264,1.264,0,0,1,.523,1.034v.746a.521.521,0,0,1-.523.537Z" transform="translate(2.417 1.134)" fill="#fafafb"/>
+      </g>
+    </g>
+  </g>
+</svg>

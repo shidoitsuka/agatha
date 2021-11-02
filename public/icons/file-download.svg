@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
+  <g id="Group_4210" data-name="Group 4210" transform="translate(-230 -299)">
+    <g id="Input" transform="translate(230 299)" fill="rgba(0,180,154,0)" stroke="#292932" stroke-width="1">
+      <rect width="32" height="32" rx="8" stroke="none"/>
+      <rect x="0.5" y="0.5" width="31" height="31" rx="7.5" fill="none"/>
+    </g>
+    <g id="noun_Download_file_445255" data-name="noun_Download file_445255" transform="translate(232.949 300.417)">
+      <path id="Path_1602" data-name="Path 1602" d="M11.416,12.051V8.6L7.383,12.848h3.236A.8.8,0,0,0,11.416,12.051Z" transform="translate(-1.929 -2.133)" fill="#fafafb"/>
+      <path id="Path_1603" data-name="Path 1603" d="M7.792,19.508v-.955h6.187a4.546,4.546,0,0,1,.56-1.687H7.792v-.955h7.469a4.57,4.57,0,0,1,3.249-1.369V7.394a1.585,1.585,0,0,0-1.7-1.424H10.442V9.918A1.753,1.753,0,0,1,8.69,11.67H5V20.8a1.7,1.7,0,0,0,1.7,1.7h8.724a4.572,4.572,0,0,1-1.464-2.986Zm0-6.239h7.926v.955H7.792Z" transform="translate(0 0)" fill="#fafafb"/>
+      <path id="Path_1604" data-name="Path 1604" d="M60.559,55.959a3.627,3.627,0,1,0,3.628,3.628A3.627,3.627,0,0,0,60.559,55.959Zm2.11,4.255-1.721,1.507a.593.593,0,0,1-.777,0l-1.722-1.507a.543.543,0,1,1,.715-.817l.853.746V57.834a.543.543,0,0,1,1.086,0v2.309l.852-.746a.543.543,0,1,1,.715.816Z" transform="translate(-42.035 -40.462)" fill="#fafafb"/>
+    </g>
+  </g>
+</svg>

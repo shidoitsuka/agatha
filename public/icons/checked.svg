@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
+  <g id="Group_13420" data-name="Group 13420" transform="translate(-1111 -325)">
+    <g id="Input" transform="translate(1111 325)" fill="#44444f" stroke="rgba(68,68,79,0)" stroke-width="1">
+      <rect width="32" height="32" rx="16" stroke="none"/>
+      <rect x="0.5" y="0.5" width="31" height="31" rx="15.5" fill="none"/>
+    </g>
+    <g id="Verified" transform="translate(1119.155 333.155)">
+      <path id="Path_1376" data-name="Path 1376" d="M7.845,0A7.845,7.845,0,1,1,0,7.845,7.845,7.845,0,0,1,7.845,0Z" fill="rgba(41,163,242,0)" stroke="#fafafb" stroke-width="1"/>
+      <path id="Check" d="M7.518.2a.67.67,0,0,0-.955,0L2.725,4.115,1.156,2.5a.682.682,0,0,0-.964.01.717.717,0,0,0,0,.98L2.219,5.543l.03.035a.659.659,0,0,0,.96,0l4.311-4.4A.705.705,0,0,0,7.518.2Z" transform="translate(3.988 5.041)" fill="#fafafb"/>
+    </g>
+  </g>
+</svg>

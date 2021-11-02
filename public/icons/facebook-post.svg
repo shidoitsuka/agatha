@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="56" height="56" viewBox="0 0 56 56">
+  <g id="facebook_post" data-name="facebook post" transform="translate(-93 -31)">
+    <rect id="Rectangle_369" data-name="Rectangle 369" width="56" height="56" rx="28" transform="translate(93 31)" fill="#1c1c24"/>
+    <g id="Group_3536" data-name="Group 3536" transform="translate(92.2 37.6)">
+      <g id="Group_3536-2" data-name="Group 3536" transform="translate(18.8 9.4)">
+        <path id="Path_1351" data-name="Path 1351" d="M37.775,32.711H19.792a.95.95,0,0,1-.992-.89V10.29a.95.95,0,0,1,.992-.89H30.959a3.188,3.188,0,0,1,2.112.775l5.408,4.133a.819.819,0,0,1,.224.976.984.984,0,0,1-.928.545H31.791a.95.95,0,0,1-.992-.89V11.448h-9.64V30.638H36.514L36.555,19.9c0-.488.073-1.111,1.089-1.127A1.01,1.01,0,0,1,38.816,19.9l-.049,11.919A.93.93,0,0,1,37.775,32.711ZM32.783,14.05h2.592l-2.592-2.325Z" transform="translate(-18.8 -9.4)" fill="#fafafb"/>
+        <path id="Path_1352" data-name="Path 1352" d="M4587.327,962.108h.825v-1.587a10.188,10.188,0,0,0-1.463-.126,2.291,2.291,0,0,0-2.469,2.51v1.421h-1.66v1.865h1.66V970.7a4.886,4.886,0,0,0,2.093-.006v0l-.051.009V966.19h1.523l.29-1.865h-1.812v-1.21A.938.938,0,0,1,4587.327,962.108Z" transform="translate(-4575.59 -952.52)" fill="#fafafb"/>
+      </g>
+    </g>
+  </g>
+</svg>

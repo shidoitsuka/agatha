@@ -1,0 +1,72 @@
+[
+    {
+        "status": "PENDING",
+        "avatars": [
+            "https://images.pexels.com/photos/9801242/pexels-photo-9801242.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+            "https://images.pexels.com/photos/1680172/pexels-photo-1680172.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+            "https://images.pexels.com/photos/1181391/pexels-photo-1181391.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+        ],
+        "icons": "/icons/angry.svg",
+        "title": "Facebook Angry Campaign",
+        "info": "Angry",
+        "date": "2021-11-23"
+    },
+    {
+        "status": "SUCCESS",
+        "avatars": [
+            "https://images.pexels.com/photos/1043473/pexels-photo-1043473.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+            "https://images.pexels.com/photos/832998/pexels-photo-832998.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+            "https://images.pexels.com/photos/1181391/pexels-photo-1181391.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+            "https://images.pexels.com/photos/1681010/pexels-photo-1681010.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+        ],
+        "title": "Retweet trump tweets",
+        "icons": "/social-media/twitter.svg",
+        "info": "Retweet",
+        "date": "2021-11-23"
+    },
+    {
+        "status": "FAILED",
+        "avatars": [
+            "https://images.pexels.com/photos/1043473/pexels-photo-1043473.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+            "https://images.pexels.com/photos/832998/pexels-photo-832998.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+            "https://images.pexels.com/photos/1181391/pexels-photo-1181391.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+            "https://images.pexels.com/photos/1681010/pexels-photo-1681010.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+        ],
+        "title": "Laugh Post campaign",
+        "icons": "/icons/laugh.svg",
+        "info": "hahaha",
+        "date": "2021-11-23"
+    },
+    {
+        "status": "SUCCESS",
+        "avatars": [
+            "https://images.pexels.com/photos/1043473/pexels-photo-1043473.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+            "https://images.pexels.com/photos/832998/pexels-photo-832998.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+            "https://images.pexels.com/photos/1681010/pexels-photo-1681010.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+        ],
+        "title": "Sad React",
+        "icons": "/icons/sad.svg",
+        "info": "Sad",
+        "date": "2021-11-23"
+    },
+    {
+        "status": "FAILED",
+        "avatars": [
+            "https://images.pexels.com/photos/1181391/pexels-photo-1181391.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+        ],
+        "title": "Like post pages",
+        "icons": "/icons/likes.svg",
+        "info": "Like",
+        "date": "2021-11-23"
+    },
+    {
+        "status": "PENDING",
+        "avatars": [
+            "/icons/scv.svg"
+        ],
+        "title": "Facebook Bulk Comment",
+        "icons": "/icons/comments.svg",
+        "info": "Comments",
+        "date": "2021-11-23"
+    }
+]
