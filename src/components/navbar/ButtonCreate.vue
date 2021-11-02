@@ -1,7 +1,8 @@
 <template>
   <div class="dropdown dropdown-end">
     <button @click="isOpened = !isOpened" tabindex="0">
-      <img :src="isOpened ? '/icons/close-active.svg' : '/icons/add-active.svg'" alt="">
+      <img src="/icons/add-active.svg" alt="">
+      <!-- <img :src="isOpened ? '/icons/close-active.svg' : '/icons/add-active.svg'" alt=""> -->
     </button>
     <ul tabindex="0" class="space-y-0 divide-y-2 rounded-lg shadow w-359 menu dropdown-content bg-base-300 divide-agatha-100 divide-opacity-25">
       <div class="p-2 md:p-4 bg-primary ">

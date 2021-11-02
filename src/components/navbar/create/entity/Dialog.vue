@@ -11,7 +11,7 @@
           class="relative w-full overflow-y-scroll bg-base-200 rounded-dialog"
           style="height: 680px"
         >
-          <div class="dialog-header">
+          <div class="dialog-header" @click="$parent.setIsOpenEntity(false)">
             <button tabindex="0">
               <img src="/icons/close-white.svg" alt="" />
             </button>
@@ -45,7 +45,7 @@
             <button class="btn" @click.prevent="previousStep">
               Previous
             </button>
-            <button @click="nextStep" class="btn btn-primary">
+            <button class="btn btn-primary px-10" @click="nextStep">
               Next
             </button>
           </footer>
