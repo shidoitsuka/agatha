@@ -1,5 +1,5 @@
 <template>
-  <Dialog :open="isOpen" @close="setIsOpen" class="fixed inset-0 z-20 flex items-center justify-center min-h-full overflow-y-scroll">
+  <Dialog :open="isOpen" @close="setIsOpen" style="width: 1064px; height: 780px;" class="fixed inset-0 z-20 flex items-center justify-center min-h-full overflow-y-scroll">
     <DialogOverlay class="fixed inset-0 opacity-90 bg-base-100" />
     <div class="z-10 w-11/12 rounded shadow-lg md:w-10/12 bg-base-300">
       <div class="flex bg-base-300">
