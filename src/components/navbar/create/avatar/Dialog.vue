@@ -1,6 +1,11 @@
 <template>
   <Dialog :open="isOpen" @close="setIsOpen" class="dialog">
     <DialogOverlay class="dialog-overlay" />
+    <div class="dialog-header" @click="$parent.setIsOpenAvatar(false)">
+      <button tabindex="0">
+        <img src="/icons/close-white.svg" alt="" />
+      </button>
+    </div>
     <div class="dialog-wraper">
       <div class="flex bg-base-300 rounded-dialog">
         <div class="max-w-xs p-6 space-y-4" style="height: 680px">
@@ -23,11 +28,6 @@
           class="relative w-full overflow-y-scroll bg-base-200 rounded-dialog"
           style="height: 680px"
         >
-          <div class="dialog-header" @click="$parent.setIsOpenAvatar(false)">
-            <button tabindex="0">
-              <img src="/icons/close-white.svg" alt="" />
-            </button>
-          </div>
           <div class="flex-none" v-for="(fieldKeys, step) in steps" :key="step">
             <div v-if="currentStep === step">
               <div v-if="step == 0">
@@ -49,7 +49,7 @@
             class="absolute flex justify-between items-end w-full py-5 px-10 bottom-1 border-t border-base-300"
           >
             <button class="btn px-7" @click.prevent="previousStep">
-              <img src="/icons/back-btn.svg" alt="">
+              <img src="/icons/back-btn.svg" alt="" />
             </button>
             <button class="btn btn-primary px-10" @click="nextStep">
               Next
