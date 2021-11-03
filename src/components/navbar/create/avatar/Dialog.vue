@@ -20,7 +20,7 @@
           </p>
         </div>
         <div
-          class="relative w-full overflow-y-scroll bg-base-200 rounded-dialog"
+          class="relative w-full bg-base-200 rounded-dialog"
           style="height: 680px"
         >
           <div

@@ -41,7 +41,7 @@
 .dialog-wraper {
   position: absolute !important;
   width: 1060px !important;
-  top: 80px !important;
+  top: 30px !important;
   height: 680px !important;
 }
 
@@ -50,8 +50,10 @@
 }
 
 .dialog-header {
-  display: flex;
-  justify-content: end;
+  position: absolute;
+  right: -34px;
+  top: -34px;
+  z-index: 15;
 }
 
 .dialog-description {
@@ -63,7 +65,7 @@
 /* CASE & ENTITY */
 .case-img, .entity-img {
   width: 56px;
-  heigth: 56px;
+  height: 56px;
 }
 .case-title, .entity-title {
   font-size: 14px;
