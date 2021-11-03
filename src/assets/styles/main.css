@@ -45,6 +45,13 @@
   height: 680px !important;
 }
 
+.dialog-wraper-rl {
+  position: absolute !important;
+  width: 700px !important;
+  top: 80px !important;
+  height: 570px !important;
+}
+
 .fixed-dialog-h {
   height: 780px !important;
 }
