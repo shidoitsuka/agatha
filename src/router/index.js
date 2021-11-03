@@ -2,6 +2,7 @@ import { createRouter, createWebHistory } from 'vue-router'
 import Home from '@/views/Home.vue'
 import Login from '@/views/Login.vue'
 import GlobalSearch from '@/views/GlobalSearch.vue'
+import ProfilerSearch from '@/views/ProfilerSearch.vue'
 import SearchHistory from '@/views/search-results/history/Index.vue'
 import SearchResult from '@/views/search-results/Result.vue'
 import SearchProfiler from '@/views/search-results/Index.vue'
@@ -25,6 +26,7 @@ export const routes = [
   { path: '/', name: 'Home', component: Home },
   { path: '/login', name: 'Login', component: Login },
   { path: '/global-search', name: 'Global Search', component: GlobalSearch, meta: { layout: 'DashboardLayout' } },
+  { path: '/profiler-search', name: 'Profiler Search', component: ProfilerSearch, meta: { layout: 'DashboardLayout' } },
   { path: '/search-history', name: 'Search History', component: SearchHistory, meta: { layout: 'DashboardWithoutSidebarLayout' } },
   { path: '/search-result', name: 'Search Result', component: SearchResult, meta: { layout: 'DashboardWithoutSidebarLayout' } },
   { path: '/search-profiler', name: 'Search Document, Entity, Avatars, Media, Groups', component: SearchProfiler, meta: { layout: 'DashboardWithoutSidebarLayout' } },
