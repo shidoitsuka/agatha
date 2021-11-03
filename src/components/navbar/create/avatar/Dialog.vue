@@ -1,11 +1,6 @@
 <template>
   <Dialog :open="isOpen" @close="setIsOpen" class="dialog">
     <DialogOverlay class="dialog-overlay" />
-    <div class="dialog-header" @click="$parent.setIsOpenAvatar(false)">
-      <button tabindex="0">
-        <img src="/icons/close-white.svg" alt="" />
-      </button>
-    </div>
     <div class="dialog-wraper">
       <div class="flex bg-base-300 rounded-dialog">
         <div class="max-w-xs p-6 space-y-4" style="height: 680px">
@@ -28,6 +23,14 @@
           class="relative w-full overflow-y-scroll bg-base-200 rounded-dialog"
           style="height: 680px"
         >
+          <div
+            class="dialog-header pt-5 pr-5"
+            @click="$parent.setIsOpenAvatar(false)"
+          >
+            <button tabindex="0">
+              <img src="/icons/close-white.svg" alt="" />
+            </button>
+          </div>
           <div class="flex-none" v-for="(fieldKeys, step) in steps" :key="step">
             <div v-if="currentStep === step">
               <div v-if="step == 0">

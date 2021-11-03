@@ -5,11 +5,6 @@
     class="fixed inset-0 z-20 flex items-center justify-center min-h-full overflow-y-scroll"
   >
     <DialogOverlay class="fixed inset-0 opacity-90 bg-base-100" />
-    <div class="dialog-header" @click="$parent.setIsOpenCase(false)">
-      <button tabindex="0">
-        <img src="/icons/close-white.svg" alt="" />
-      </button>
-    </div>
     <div
       class="dialog-wraper z-10 w-11/12 rounded shadow-lg md:w-10/12 rounded-dialog"
     >
@@ -37,6 +32,14 @@
           class="relative w-full overflow-y-scroll bg-base-200 rounded-dialog"
           style="height: 680px"
         >
+          <div
+            class="dialog-header pt-5 pr-5"
+            @click="$parent.setIsOpenCase(false)"
+          >
+            <button tabindex="0">
+              <img src="/icons/close-white.svg" alt="" />
+            </button>
+          </div>
           <div class="" v-for="(fieldKeys, step) in steps" :key="step">
             <div v-if="currentStep === step">
               <div v-if="step == 0">

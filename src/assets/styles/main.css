@@ -50,10 +50,8 @@
 }
 
 .dialog-header {
-  position: absolute;
-  right: 140px;
-  top: 70px;
-  z-index: 15;
+  display: flex;
+  justify-content: end;
 }
 
 .dialog-description {
