@@ -1,5 +1,7 @@
 <template>
-  <ProfilerSearch />
+  <div style="padding-top: 25vh">
+    <ProfilerSearch />
+  </div>
 </template>
 
 <script>

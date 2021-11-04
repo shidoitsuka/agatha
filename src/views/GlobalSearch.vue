@@ -1,5 +1,7 @@
 <template>
-  <GlobalSearch />
+  <div style="padding-top: 25vh">
+    <GlobalSearch />
+  </div>
 </template>
 
 <script>
