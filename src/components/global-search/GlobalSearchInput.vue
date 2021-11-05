@@ -1,11 +1,9 @@
 <template>
   <div class="w-full shadow-lg form-control">
     <div class="relative flex items-center space-x-2 rounded-lg bg-base-200">
-      <select class="rounded-r-none bg-base-300 select focus:ring-0">
+      <select @change="$router.push('profiler-search')" class="rounded-r-none bg-base-300 select focus:ring-0">
         <option selected>Global Search</option>
-        <option>telekinesis</option>
-        <option>time travel</option>
-        <option>invisibility</option>
+        <option>Profiler Search</option>
       </select>
       <div v-show="type" class="hidden px-2 py-1 text-sm font-bold rounded md:block bg-secondary">PERSON</div>
       <img class="hidden md:block" src="/icons/search.svg" alt="">
