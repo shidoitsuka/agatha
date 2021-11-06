@@ -43,7 +43,7 @@
 
 /* DIALOGS */
 .rounded-dialog {
-  border-radius: 8px;
+  border-radius: 16px;
 }
 
 .dialog-wraper {
@@ -51,6 +51,32 @@
   width: 1060px !important;
   top: 80px !important;
   height: 680px !important;
+}
+
+.dialog-wraper-filter {
+  position: absolute !important;
+  width: 673px !important;
+  top: 150px !important;
+  padding: 50px;
+  height: 457px !important;
+}
+
+.font-filter {
+  font-size: 11px;
+}
+
+.upload-filter {
+  right: 60px;
+  top: 214px;
+  position: absolute;
+  padding: 7px;
+  border-radius: 4px;
+  width: 57px;
+  height: 31px;
+  text-align: center;
+  background: #44444F 0% 0% no-repeat padding-box;
+  color: #FAFAFB;
+  font-size: 12px;
 }
 
 .dialog-wraper-rl {
@@ -73,8 +99,8 @@
 
 .dialog-header-filter {
   position: absolute;
-  right: 380px;
-  top: 230px;
+  right: -36px;
+  top: -36px;
   z-index: 15;
 }
 

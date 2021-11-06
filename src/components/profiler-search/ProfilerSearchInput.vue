@@ -5,7 +5,7 @@
         <option selected>Profiler Search</option>
         <option>Global Search</option>
       </select>
-      <div v-show="true" class="hidden px-2 py-1 text-sm font-bold rounded md:block bg-secondary"><ButtonFilter /></div>
+      <div v-show="true" class="hidden px-2 py-1 font-filter font-bold rounded md:block bg-secondary"><ButtonFilter /></div>
       <img class="hidden md:block" src="/icons/search.svg" alt="">
       <input type="text" placeholder="Search" class="w-full p-0 rounded-l-none input focus:ring-0 bg-base-200">
       <div class="absolute top-0 right-0 rounded-l-none btn-group">

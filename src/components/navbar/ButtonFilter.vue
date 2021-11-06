@@ -1,5 +1,5 @@
 <template>
-  <div @click="setIsOpen(true)">
+  <div @click="setIsOpen(true)" class="font-filter">
     PERSON
   </div>
   <Dialog
