@@ -19,8 +19,8 @@
       <DialogTitle class="flex flex-col items-center justify-center space-y-4">
         <h1 class="text-xl font-semibold">Profiler Filter</h1>
         <div class="flex space-x-8">
-          <div class="flex flex-col items-center space-y-1">
-            <img src="/icons/person-active.svg" alt="" />
+          <div class="flex flex-col items-center space-y-1" @click="changeToProfile()">
+            <img :src="`/icons/person${isActivePerson ? '-active' : ''}.svg`" alt="" />
             <span class="font-light text-gray-400">Profile</span>
           </div>
           <div class="flex flex-col items-center space-y-1">
@@ -39,12 +39,12 @@
             class="flex flex-col items-center space-y-1"
             @click="changeToVin()"
           >
-            <img src="/icons/VIN.svg" alt="" />
+            <img :src="`/icons/VIN${isActiveVIN ? '-active' : ''}.svg`" alt="" />
             <span class="font-light text-gray-400">VIN</span>
           </div>
         </div>
       </DialogTitle>
-      <div class="form-control">
+      <div class="form-control profiler-filter-content" v-show="isActivePerson">
         <div class="flex">
           <select class="rounded-r-none bg-base-300 select focus:ring-0">
             <option selected>Face</option>
@@ -58,6 +58,19 @@
           <span class="upload-filter">
             Upload
           </span>
+        </div>
+      </div>
+      <div class="form-control profiler-filter-content" v-show="isActiveVIN">
+        <div class="flex">
+          <select class="rounded-r-none bg-base-300 select focus:ring-0">
+            <option selected>VIN</option>
+            <option>Home</option>
+          </select>
+          <input
+            type="text"
+            placeholder="🇫🇷 Enter VIN"
+            class="w-full border-l-0 rounded-l-none input-bordered input focus:ring-0 bg-base-200 border-base-300"
+          />
         </div>
       </div>
       <div class="hidden">
@@ -108,7 +121,7 @@
           </div>
         </div>
       </div>
-      <div class="flex space-x-4 justify-end">
+      <div class="flex space-x-4 justify-end btn-action-filter">
         <div class="">
           <button class="w-full btn btn-outline">Cancel</button>
         </div>
@@ -131,8 +144,14 @@ import {
 
 export default {
   components: { Dialog, DialogOverlay, DialogTitle, DialogDescription },
+  data() {
+    return {
+      isActivePerson: true,
+      isActiveVIN: false,
+    }
+  },
   setup() {
-    const isOpen = ref(true)
+    const isOpen = ref(false)
 
     return {
       isOpen,
@@ -143,7 +162,12 @@ export default {
   },
   methods: {
     changeToVin() {
-      console.log('change to vin')
+      this.isActivePerson = false
+      this.isActiveVIN = true
+    },
+    changeToProfile() {
+      this.isActivePerson = true
+      this.isActiveVIN = false
     },
   },
 }

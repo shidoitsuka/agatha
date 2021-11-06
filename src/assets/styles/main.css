@@ -67,7 +67,7 @@
 
 .upload-filter {
   right: 60px;
-  top: 214px;
+  top: 243px;
   position: absolute;
   padding: 7px;
   border-radius: 4px;
@@ -77,6 +77,14 @@
   background: #44444F 0% 0% no-repeat padding-box;
   color: #FAFAFB;
   font-size: 12px;
+}
+
+.profiler-filter-content {
+  margin-top: 50px !important;
+}
+
+.btn-action-filter {
+  margin-top: 100px !important;
 }
 
 .dialog-wraper-rl {
