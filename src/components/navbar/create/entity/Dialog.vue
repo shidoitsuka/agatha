@@ -8,16 +8,7 @@
     <div class="dialog-wraper z-10 w-11/12 rounded-dialog shadow-lg md:w-10/12">
       <div class="flex">
         <div class="max-w-xs p-6 space-y-4">
-          <h3 class="text-3xl font-semibold pt-5">Create a new Entity</h3>
-          <div class="flex items-stretch gap-2">
-            <div
-              v-for="step in totalSteps"
-              :key="step"
-              class="w-full h-2 rounded text-accent"
-              style="border: 1px solid;"
-              :class="{ 'bg-accent': step - 1 <= currentStep }"
-            ></div>
-          </div>
+          <h3 class="dialog-title pt-5">Create a new Entity</h3>
           <p class="dialog-description">
             An entity card is a knowledge repository about an entity, such a
             person, location, or organization. It includes metadata collected
@@ -26,7 +17,7 @@
         </div>
         <div
           class="relative w-full bg-base-200 rounded-dialog"
-          style="height: 680px"
+          style="height: 780px;"
         >
           <div class="dialog-header pt-5 pr-5" @click="$parent.setIsOpenEntity(false)">
             <button tabindex="0">

@@ -43,22 +43,24 @@
 
 /* DIALOGS */
 .rounded-dialog {
-  border-radius: 16px;
+  border-radius: 8px;
 }
 
 .dialog-wraper {
   position: absolute !important;
   width: 1060px !important;
-  top: 80px !important;
-  height: 680px !important;
+  top: 124px !important;
+  left: 151px;
+  height: 780px !important;
 }
 
 .dialog-wraper-filter {
   position: absolute !important;
-  width: 673px !important;
-  top: 150px !important;
+  width: 662px !important;
+  top: 110px !important;
+  left: 347px !important;
   padding: 50px;
-  height: 457px !important;
+  height: 447px !important;
 }
 
 .font-filter {
@@ -67,7 +69,7 @@
 
 .upload-filter {
   right: 60px;
-  top: 243px;
+  top: 258px;
   position: absolute;
   padding: 7px;
   border-radius: 4px;
@@ -84,7 +86,11 @@
 }
 
 .btn-action-filter {
-  margin-top: 100px !important;
+  margin-top: 70px !important;
+}
+
+.button-actions-filter {
+  font-size: 13px;
 }
 
 .dialog-wraper-rl {
@@ -112,9 +118,15 @@
   z-index: 15;
 }
 
+.dialog-title {
+  font: normal normal bold 30px/36px Mulish;
+  letter-spacing: 0px;
+}
+
 .dialog-description {
-  font-size: 14px;
+  font: normal normal normal 14px/22px Mulish;
   color: #d5d5dc;
+  letter-spacing: 0;
   line-height: 24px;
 }
 
@@ -125,6 +137,46 @@
 }
 .case-title, .entity-title {
   font-size: 14px;
+}
+
+.avatar-dialog--title {
+  text-align: center;
+  font: normal normal bold 24px/36px Mulish;
+  letter-spacing: 0px;
+  color: #FAFAFB;
+}
+
+.avatar-dialog--subtitle {
+  text-align: center;
+  font: normal normal normal 16px/24px Mulish;
+  letter-spacing: 0px;
+  color: #D5D5DC;
+}
+
+.avatar-card--title {
+  font: normal normal bold 15px/16px Mulish;
+  text-align: center;
+  letter-spacing: 0px;
+  color: #FAFAFB;
+}
+
+.avatar-card--subtitle {
+  text-align: center;
+  font: normal normal normal 14px/22px Mulish;
+  letter-spacing: 0px;
+  color: #D5D5DC;
+}
+
+.avatar-dialog--photo {
+  width: 112px;
+  height: 112px;
+}
+
+.avatar-dialog--photo-text {
+  font: normal normal 600 14px/24px Mulish;
+  letter-spacing: 0px;
+  color: #D5D5DC;
+  text-align: center;
 }
 
 /* SCROLLBAR */

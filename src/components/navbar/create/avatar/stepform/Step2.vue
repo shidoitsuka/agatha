@@ -1,8 +1,8 @@
 <template>
   <div class="px-7 py-4 overflow-y-scroll pt-10 bg-base-200">
     <div class="grid gap-2 place-items-center">
-      <img class="w-20 h-20" src="/icons/upload.svg" alt="">
-      <button class="capitalize btn bg-base-300">
+      <img class="avatar-dialog--photo" src="/icons/upload.svg" alt="">
+      <button class="avatar-dialog--photo-text btn bg-base-300">
         <img class="mr-2" src="/icons/uploadcard.svg" alt="">
         Upload Card Photo
       </button>

@@ -17,8 +17,8 @@
         </button>
       </div>
       <DialogTitle class="flex flex-col items-center justify-center space-y-4">
-        <h1 class="text-xl font-semibold">Profiler Filter</h1>
-        <div class="flex space-x-8">
+        <h1 class="text-xl font-semibold" style="margin-bottom: 20px !important;">Profiler Filter</h1>
+        <div class="flex space-x-8 button-actions-filter">
           <div class="flex flex-col items-center space-y-1" @click="changeToProfile()">
             <img :src="`/icons/person${isActivePerson ? '-active' : ''}.svg`" alt="" />
             <span class="font-light text-gray-400">Profile</span>

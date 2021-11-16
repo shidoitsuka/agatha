@@ -21,7 +21,7 @@
         </div>
         <div
           class="relative w-full bg-base-200 rounded-dialog"
-          style="height: 680px"
+          style="height: 780px"
         >
           <div
             class="dialog-header pt-5 pr-5"
