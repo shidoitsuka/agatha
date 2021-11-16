@@ -1,7 +1,7 @@
 <template>
   <Dialog :open="isOpen" @close="setIsOpen" class="dialog">
     <DialogOverlay class="dialog-overlay" />
-    <div class="dialog-wraper">
+    <div class="dialog-wraper rounded-dialog">
       <div class="flex bg-base-300 rounded-dialog">
         <div class="max-w-xs p-6 space-y-4" style="height: 680px">
           <h3 class="text-3xl font-semibold pt-5">Create a new Avatar</h3>
@@ -21,7 +21,7 @@
         </div>
         <div
           class="relative w-full bg-base-200 rounded-dialog"
-          style="height: 780px"
+          style="height: 780px;"
         >
           <div
             class="dialog-header pt-5 pr-5"
@@ -48,7 +48,7 @@
             </div>
           </div>
           <footer
-            style="background-color: #202029;"
+            style="background-color: #202029; border-radius: 0 0 16px 0;"
             class="absolute flex justify-between items-end w-full py-5 px-10 bottom-1 border-t border-base-300"
           >
             <button class="btn px-7" @click.prevent="previousStep">

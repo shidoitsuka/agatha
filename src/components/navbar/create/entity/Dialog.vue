@@ -4,7 +4,7 @@
     @close="setIsOpen"
     class="fixed inset-0 z-20 flex items-center justify-center overflow-y-scroll"
   >
-    <DialogOverlay class="fixed inset-0 opacity-90 bg-base-100" />
+    <DialogOverlay class="fixed inset-0 opacity-90 bg-base-100 rounded-dialog" />
     <div class="dialog-wraper z-10 w-11/12 rounded-dialog shadow-lg md:w-10/12">
       <div class="flex">
         <div class="max-w-xs p-6 space-y-4">
@@ -47,7 +47,7 @@
             </div>
           </div>
           <footer
-            style="background-color: #202029;"
+            style="background-color: #202029; border-radius: 0 0 16px 0;"
             class="absolute flex justify-between items-end w-full py-5 px-10 bottom-1 border-t border-base-300"
           >
             <button class="btn px-7" @click.prevent="previousStep">

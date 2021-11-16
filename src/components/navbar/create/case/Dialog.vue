@@ -6,7 +6,7 @@
   >
     <DialogOverlay class="fixed inset-0 opacity-90 bg-base-100" />
     <div
-      class="dialog-wraper z-10 w-11/12 rounded shadow-lg md:w-10/12 rounded-dialog"
+      class="dialog-wraper z-10 w-11/12 shadow-lg md:w-10/12 rounded-dialog"
     >
       <div class="flex">
         <div
@@ -54,7 +54,7 @@
             </div>
           </div>
           <footer
-            style="background-color: #202029;"
+            style="background-color: #202029; border-radius: 0 0 16px 0;"
             class="absolute flex justify-between w-full py-5 px-10 border-t bottom-1 bg-base-200 border-base-300"
           >
             <button class="btn px-7" @click.prevent="previousStep">

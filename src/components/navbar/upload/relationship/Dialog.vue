@@ -1,7 +1,7 @@
 <template>
   <Dialog :open="isOpen" @close="setIsOpen" class="fixed inset-0 z-20 flex items-center justify-center">
     <DialogOverlay class="fixed inset-0 opacity-90 bg-base-100" />
-    <div class="dialog-wraper-rl z-10 w-11/12 px-8 py-6 space-y-5 rounded shadow-lg md:w-6/12 bg-base-200">
+    <div class="dialog-wraper-rl z-10 w-11/12 px-8 py-6 space-y-5 rounded-dialog shadow-lg md:w-6/12 bg-base-200">
       <DialogTitle class="flex flex-col items-center justify-center">
         <div class="dialog-header pt-5 pr-5" @click="$parent.setIsOpenRl(false)">
             <button tabindex="0">
@@ -14,7 +14,7 @@
       <DialogDescription class="space-y-3">
         <div class="overflow-y-scroll h-96">
           <div class="w-full space-y-2">
-            <div class="flex items-center justify-between p-4 rounded-lg bg-base-100">
+            <div class="flex items-center justify-between p-4 rounded-dialog bg-base-100">
               <div class="flex space-x-4">
                 <img src="/icons/rl.svg" alt="">
                 <div>
