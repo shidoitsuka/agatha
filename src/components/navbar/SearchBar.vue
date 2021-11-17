@@ -14,6 +14,7 @@
       </div>
       <input
         type="text"
+        style="border-left: 1px solid #1C1C24;"
         :placeholder="isProfilerSearch ? 'Phone' : 'Search...'"
         class="w-full rounded-l-none input focus:ring-0 bg-base-300 nav-search"
       />

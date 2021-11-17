@@ -1,57 +1,79 @@
 <template>
-  <div class="hidden min-h-screen py-5 space-y-1 bg-base-200 w-286 md:block">
+  <div v-show="showSidebar" class="hidden min-h-screen py-5 space-y-1 bg-base-200 w-286 md:block">
     <div class="flex-row px-5">
-      <div class="flex items-center w-full p-4 rounded-lg cursor-pointer hover:bg-base-300">
-        <img src="icons/home-active.svg" alt="" class="mr-3">
+      <div
+        class="flex items-center w-full p-4 rounded-lg cursor-pointer hover:bg-base-300"
+      >
+        <img src="icons/home-active.svg" alt="" class="mr-3" />
         <h3 class="text-sm">Home</h3>
       </div>
     </div>
     <div class="flex-row px-5">
-      <div class="flex items-center w-full p-4 rounded-lg cursor-pointer hover:bg-base-300">
-        <img src="icons/documents.svg" alt="" class="mr-3">
-        <h3 class="text-sm">Documents <span class="px-2 rounded-box bg-error">13.5m</span> </h3>
+      <div
+        class="flex items-center w-full p-4 rounded-lg cursor-pointer hover:bg-base-300"
+      >
+        <img src="icons/documents.svg" alt="" class="mr-3" />
+        <h3 class="text-sm">
+          Documents <span class="px-2 rounded-box bg-error">13.5m</span>
+        </h3>
       </div>
     </div>
     <div class="px-5">
-      <div class="items-center max-w-xs rounded-lg collapse">
-        <input type="checkbox">
+      <div
+        class="items-center max-w-xs rounded-lg collapse"
+        @click="changedCollapse('engineering')"
+      >
+        <input type="checkbox" ref="engineering" />
         <div class="flex items-center justify-between collapse-title">
-          <img src="/icons/social-engineering.svg" alt="" class="mr-3">
+          <img src="/icons/social-engineering.svg" alt="" class="mr-3" />
           <h3 class="flex-auto text-sm">Social Engineering</h3>
-          <img src="/icons/arrow-down.svg" alt="">
+          <img src="/icons/arrow-down.svg" alt="" />
         </div>
         <div class="w-full p-0 collapse-content">
           <div class="border-t border-agatha-100">
-            <p class="py-3 pl-16 cursor-pointer hover:bg-agatha-100">Cyber Mission</p>
-            <p class="py-3 pl-16 cursor-pointer hover:bg-agatha-100">Influencer System</p>
-            <p class="py-3 pl-16 cursor-pointer hover:bg-agatha-100">Infiltration</p>
+            <p class="py-3 pl-16 cursor-pointer sidebar--font">
+              Cyber Mission
+            </p>
+            <p class="py-3 pl-16 cursor-pointer sidebar--font">
+              Influencer System
+            </p>
+            <p class="py-3 pl-16 cursor-pointer sidebar--font">
+              Infiltration
+            </p>
           </div>
         </div>
       </div>
     </div>
     <div class="px-5">
-      <div class="items-center max-w-xs rounded-lg collapse">
-        <input type="checkbox">
+      <div
+        class="items-center max-w-xs rounded-lg collapse"
+        @click="changedCollapse('case')"
+      >
+        <input type="checkbox" ref="case" />
         <div class="flex items-center justify-between collapse-title">
-          <img src="/icons/case.svg" alt="" class="mr-3">
+          <img src="/icons/case.svg" alt="" class="mr-3" />
           <h3 class="flex-auto text-sm">Case Manager</h3>
-          <img src="/icons/arrow-down.svg" alt="">
+          <img src="/icons/arrow-down.svg" alt="" />
         </div>
         <div class="p-0 collapse-content">
           <div class="border-t border-agatha-100">
-            <p class="py-3 pl-16 cursor-pointer hover:bg-agatha-100">Entity Card</p>
-            <p class="py-3 pl-16 cursor-pointer hover:bg-agatha-100">Avatar</p>
-            <p class="py-3 pl-16 cursor-pointer hover:bg-agatha-100">Group </p>
-            <p class="py-3 pl-16 cursor-pointer hover:bg-agatha-100">Media</p>
-            <p class="py-3 pl-16 cursor-pointer hover:bg-agatha-100">VIN</p>
+            <p class="py-3 pl-16 cursor-pointer hover:bg-agatha-100">
+              Entity Card
+            </p>
+            <p class="py-3 pl-16 cursor-pointer sidebar--font">Avatar</p>
+            <p class="py-3 pl-16 cursor-pointer sidebar--font">Group</p>
+            <p class="py-3 pl-16 cursor-pointer sidebar--font">Media</p>
+            <p class="py-3 pl-16 cursor-pointer sidebar--font">VIN</p>
           </div>
         </div>
       </div>
     </div>
-     <div class="flex-row px-5">
-      <div class="flex items-center w-full p-4 rounded-lg cursor-pointer hover:bg-base-300">
-        <img src="icons/profiler.svg" alt="" class="mr-3">
-        <h3 class="text-sm">Profiler </h3>
+    <div class="flex-row px-5">
+      <div
+        class="flex items-center w-full p-4 rounded-lg cursor-pointer hover:bg-base-300"
+      >
+        <img src="icons/profiler.svg" alt="" class="mr-3" />
+        <h3 class="text-sm">Profiler</h3>
       </div>
     </div>
   </div>
@@ -59,6 +81,12 @@
 
 <script>
 export default {
+  props: {
+    showSidebar: {
+      type: Boolean,
+      default: false,
+    },
+  },
   data() {
     return {
       items: [
@@ -90,6 +118,25 @@ export default {
         },
       ],
     }
+  },
+  methods: {
+    changedCollapse(item) {
+      if (item === 'case') {
+        if (this.$refs.case.checked) {
+          this.$refs.case.checked = true
+          this.$refs.engineering.checked = false
+        } else {
+          this.$refs.case.checked = false
+        }
+      } else {
+        if (this.$refs.engineering.checked) {
+          this.$refs.engineering.checked = true
+          this.$refs.case.checked = false
+        } else {
+          this.$refs.engineering.checked = false
+        }
+      }
+    },
   },
 }
 </script>

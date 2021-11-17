@@ -1,7 +1,7 @@
 <template>
-  <Navbar />
+  <Navbar @hamClick="toggleSidebar" />
   <div class="flex">
-    <Sidebar />
+    <Sidebar :showSidebar="showSidebar" />
     <div class="flex-grow">
       <slot />
     </div>
@@ -16,6 +16,16 @@ export default {
   components: {
     Navbar,
     Sidebar,
+  },
+  data() {
+    return {
+      showSidebar: true,
+    }
+  },
+  methods: {
+    toggleSidebar() {
+      this.showSidebar = !this.showSidebar
+    },
   },
 }
 </script>

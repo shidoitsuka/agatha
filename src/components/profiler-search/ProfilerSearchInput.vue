@@ -1,7 +1,7 @@
 <template>
   <div class="w-full shadow-lg form-control">
     <div class="relative flex items-center space-x-2 rounded-lg bg-base-200">
-      <select @change="$router.push('global-search')" class="rounded-r-none bg-base-300 select focus:ring-0">
+      <select @change="$router.push('global-search')" class="rounded-r-none bg-base-300 select focus:ring-0" style="height: 56px;">
         <option selected>Profiler Search</option>
         <option>Global Search</option>
       </select>
@@ -9,7 +9,7 @@
       <img class="hidden md:block" src="/icons/search.svg" alt="">
       <input type="text" placeholder="Search" class="w-full p-0 rounded-l-none input focus:ring-0 bg-base-200">
       <div class="absolute top-0 right-0 rounded-l-none btn-group">
-        <button class="px-8 btn btn-primary">
+        <button class="px-8 btn btn-primary" style="height: 56px;">
           <img class="block md:hidden" src="/icons/search.svg" alt="">
           <span class="hidden capitalize md:block">Search</span>
         </button>
