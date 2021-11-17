@@ -57,7 +57,7 @@
         </div>
         <div class="p-0 collapse-content">
           <div class="border-t border-agatha-100">
-            <p class="py-3 pl-16 cursor-pointer hover:bg-agatha-100">
+            <p class="py-3 pl-16 cursor-pointer sidebar--font">
               Entity Card
             </p>
             <p class="py-3 pl-16 cursor-pointer sidebar--font">Avatar</p>
