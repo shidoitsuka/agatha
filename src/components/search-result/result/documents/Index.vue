@@ -1,5 +1,5 @@
 <template>
-  <div class="flex">
+  <div class="flex w-full">
     <LeftMenu>
       <template #left-menu-item>
         <div v-for="menu in menus" :key="menu" class="w-full text-sm collapse collapse-arrow">
