@@ -2,13 +2,11 @@
   <div class="px-8 py-4 mb-4 border-t border-base-300 bg-base-200">
     <div class="w-full form-control">
       <div class="relative flex items-center space-x-2 rounded-lg bg-base-300">
-        <select class="rounded-r-none bg-base-300 select focus:ring-0">
-          <option selected>Global Search</option>
-          <option>telekinesis</option>
-          <option>time travel</option>
-          <option>invisibility</option>
+        <select ref="searchType" @change="typeChanged()" class="rounded-r-none bg-base-300 select focus:ring-0">
+          <option value="global" selected>Global Search</option>
+          <option value="profiler">Profiler Search</option>
         </select>
-        <div v-show="type" class="hidden px-2 py-1 text-sm font-bold rounded md:block bg-secondary">PERSON</div>
+        <div v-show="isProfilerSearch" class="hidden px-2 py-1 text-sm font-bold rounded md:block bg-secondary font-filter">PERSON</div>
         <img class="hidden md:block" src="/icons/search.svg" alt="">
         <input type="text" placeholder="Search" class="w-full p-0 rounded-l-none input focus:ring-0 bg-base-300">
         <div class="absolute top-0 right-0 rounded-l-none btn-group">
@@ -68,6 +66,18 @@ import Card from '@/views/search-results/history/Card.vue'
 export default {
   components: {
     Card,
+  },
+  data() {
+    return {
+      isProfilerSearch: false,
+    }
+  },
+  methods: {
+    typeChanged() {
+      const currentValue = this.$refs.searchType.value
+      if (currentValue === 'profiler') this.isProfilerSearch = true
+      else this.isProfilerSearch = false
+    },
   },
 }
 </script>

@@ -95,7 +95,12 @@
   position: absolute !important;
   width: 700px !important;
   top: 80px !important;
-  height: 570px !important;
+  min-height: 585px !important;
+}
+
+.media-facepicture--label-font {
+  font: normal normal 600 13px/16px Mulish;
+  color: #92929D;
 }
 
 .fixed-dialog-h {
@@ -135,6 +140,27 @@
 }
 .case-title, .entity-title {
   font-size: 14px;
+}
+
+.tab-title {
+  font: normal normal 600 14px/24px Mulish;
+  letter-spacing: 0px;
+}
+
+.drag-and-drop--font {
+  font: normal normal normal 18px/23px Mulish;
+  color: #FDFEFF;
+}
+
+.drag-and-drop--subfont {
+  margin-top: 10px;
+  font: normal normal normal 14px/18px Mulish;
+  color: #989898;
+}
+
+.uploaded-media {
+  background: #18181F 0% 0% no-repeat padding-box;
+  /* opacity: 0.5; */
 }
 
 .avatar-dialog--title {

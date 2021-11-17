@@ -5,7 +5,7 @@
     </button>
     <ul tabindex="0" class="divide-y-2 rounded-lg shadow w-292 divide-agatha-100 menu dropdown-content bg-base-300 divide-opacity-25">
       <li>
-        <a class="text-xs md:text-sm">
+        <a class="text-xs md:text-sm" @click="setIsOpenMd(true)">
           <img class="w-6 h-6 mr-2 md:w-8 md:h-8" src="/icons/image.svg" alt="">
           Upload Media
         </a>
@@ -25,25 +25,33 @@
     </ul>
   </div>
   <DialogRl :setIsOpen="setIsOpenRl" :isOpen="isOpenRl" />
+  <DialogMd :setIsOpen="setIsOpenMd" :isOpen="isOpenMd" />
 </template>
 
 <script>
 import { ref } from 'vue'
 import DialogRl from './upload/relationship/Dialog.vue'
+import DialogMd from './upload/media/Dialog.vue'
 
 export default {
   setup() {
     const isOpenRl = ref(false)
+    const isOpenMd = ref(false)
 
     return {
       isOpenRl,
+      isOpenMd,
       setIsOpenRl(value) {
         isOpenRl.value = value
+      },
+      setIsOpenMd(value) {
+        isOpenMd.value = value
       },
     }
   },
   components: {
     DialogRl,
+    DialogMd,
   },
 }
 </script>
