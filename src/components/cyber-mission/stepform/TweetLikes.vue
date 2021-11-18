@@ -1,8 +1,8 @@
 <template>
-  <div class="p-10 space-y-5">
+  <div class="p-10 space-y-5" style="height: 690px;">
     <div class="grid place-items-center">
-      <h3 class="text-xl">Social Media Campaign</h3>
-      <h5>automationg retweet and lkes using avatars</h5>
+      <h3 class="cyber-text">Social Media Campaign</h3>
+      <h5 class="cyber-subtext">automationg retweet and lkes using avatars</h5>
     </div>
     <div class="p-5 space-y-3 bg-base-300 rounded-xl">
       <div class="flex items-center justify-between space-x-4">

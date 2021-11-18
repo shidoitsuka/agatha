@@ -1,8 +1,8 @@
 <template>
   <div class="p-10 space-y-5">
     <div class="grid place-items-center">
-      <h3 class="text-xl">Bulk Text Generater</h3>
-      <h5>Generate sentences based on your inputs below</h5>
+      <h3 class="cyber-text">Bulk Text Generater</h3>
+      <h5 class="cyber-subtext">Generate sentences based on your inputs below</h5>
     </div>
     <div class="grid grid-cols-2 gap-3">
       <div class="form-control">

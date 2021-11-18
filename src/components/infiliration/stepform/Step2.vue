@@ -1,5 +1,5 @@
 <template>
-  <div class="px-10 py-4 overflow-y-scroll bg-base-200" style="min-height: 500px">
+  <div class="px-10 py-4 overflow-y-scroll bg-base-200" style="min-height: 690px">
     <div class="grid grid-cols-1 gap-2 p-3">
       <div class="form-control">
         <label class="label">

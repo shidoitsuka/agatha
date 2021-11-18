@@ -1,5 +1,5 @@
 <template>
-  <div class="px-10 py-4 overflow-y-scroll bg-base-200" style="min-height: 500px">
+  <div class="px-10 py-4 overflow-y-scroll bg-base-200" style="min-height: 690px">
     <div class="flex items-center justify-between">
       <div class="p-3 border-2 rounded-lg form-control border-base-300">
         <label class="flex items-center cursor-pointer">

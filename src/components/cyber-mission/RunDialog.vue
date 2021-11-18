@@ -1,10 +1,10 @@
 <template>
   <Dialog :open="isOpen" @close="setIsOpen" class="fixed inset-0 z-20 flex items-center justify-center min-h-full overflow-y-scroll">
     <DialogOverlay class="fixed inset-0 opacity-90 bg-base-100" />
-    <div class="z-10 w-11/12 rounded shadow-lg md:w-10/12 bg-base-300">
+    <div class="dialog-cyber-mission z-10 w-11/12 shadow-lg md:w-10/12 bg-base-300 rounded-dialog">
       <TabGroup>
-        <div class="flex bg-base-300">
-          <div class="max-w-xs p-6 space-y-4 overflow-y-scroll bg-base-300" style="height: 600px">
+        <div class="flex bg-base-300 rounded-dialog">
+          <div class="max-w-xs p-6 space-y-4 overflow-y-scroll rounded-dialog bg-base-300" style="height: 780px">
             <h3 class="text-3xl">Run a Cyber mission</h3>
             <p>
               Use avatars for social engineering activities to automate tweets and likes that are of interest to you.
@@ -18,7 +18,15 @@
               </Tab>
             </TabList>
           </div>
-          <div class="w-full overflow-y-scroll bg-base-200" style="height: 600px">
+          <div class="w-full overflow-y-scroll bg-base-200" style="height: 780px; border-radius: 0 0 16px 0;">
+            <div
+            class="dialog-header pt-5 pr-5"
+            @click="$parent.setIsOpenCase(false)"
+          >
+            <button tabindex="0">
+              <img src="/icons/close-white.svg" alt="" />
+            </button>
+          </div>
             <TabPanels>
               <TabPanel>
                 <TweetLikes />
@@ -30,9 +38,9 @@
                 <BulkText />
               </TabPanel>
             </TabPanels>
-            <footer class="flex justify-between p-3 border-t border-base-300">
+            <footer style="border-radius: 0 0 16px 0;" class="flex justify-between p-3 border-t border-base-300">
               <div></div>
-              <button class="btn btn-primary">
+              <button class="btn btn-primary px-10 mr-6">
                 Run
               </button>
             </footer>

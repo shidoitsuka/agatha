@@ -89,6 +89,10 @@ export default {
     toggleVisualization() {
       this.isVisualization = !this.isVisualization
     },
+    closeDialog() {
+      console.log('test')
+      this.setIsOpen(false)
+    },
   },
 }
 </script>

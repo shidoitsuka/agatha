@@ -8,7 +8,7 @@
         </div>
         <div class="flex-row space-y-2 text-center">
           <div class="avatar indicator">
-            <span class="border-none indicator-bottom indicator-center indicator-item badge bg-success badge-lg">{{ result.status }}</span>
+            <span class="border-none indicator-bottom indicator-center indicator-item badge bg-secondary badge-lg">{{ result.status }}</span>
             <div class="w-24 h-24 rounded-full">
               <img :src="result.avatar">
             </div>

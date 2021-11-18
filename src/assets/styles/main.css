@@ -46,6 +46,13 @@
   border-radius: 16px !important;
 }
 
+.dialog-infiltrating {
+  position: absolute !important;
+  width: 1064px !important;
+  top: 124px !important;
+  height: 780px !important;
+}
+
 .dialog-wraper {
   position: absolute !important;
   width: 1060px !important;
@@ -96,6 +103,48 @@
   width: 700px !important;
   top: 80px !important;
   min-height: 585px !important;
+}
+
+.dialog-wraper-alert {
+  position: absolute !important;
+  height: 674px !important;
+  width: 580px !important;
+  top: 80px !important;
+}
+
+.alert-dialog--text {
+  text-align: center;
+  font: normal normal bold 18px/23px Mulish;
+  letter-spacing: 0px;
+  color: #FAFAFB;
+}
+
+.dialog-cyber-mission {
+  height: 780px !important;
+  width: 1064px !important;
+  position: absolute !important;
+  top: 126px !important;
+}
+
+.cyber-text {
+  text-align: center;
+  font: normal normal bold 24px/36px Mulish;
+  letter-spacing: 0px;
+  color: #FAFAFB;
+}
+
+.cyber-subtext {
+  text-align: center;
+  font: normal normal normal 16px/24px Mulish;
+  letter-spacing: 0px;
+  color: #D5D5DC;
+}
+
+.alert-dialog--subtext {
+  font: normal normal normal 13px/16px Mulish;
+  letter-spacing: 0px;
+  color: #92929D;
+  text-align: center;
 }
 
 .sidebar--font {

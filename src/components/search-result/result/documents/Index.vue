@@ -30,7 +30,7 @@
       <template #right-menu-item>
         <div class="py-2 text-center border rounded-full border-base-300">Generated tags</div>
         <div>
-          <div v-for="tag in tags" :key="tag" class="inline-block px-2 m-1 text-sm bg-success rounded-box">{{ tag }}</div>
+          <div v-for="tag in tags" :key="tag" class="inline-block px-2 m-1 text-sm rounded-box" style="background: #00b49a;">{{ tag }}</div>
         </div>
         <div class="py-2 text-center border rounded-full border-base-300">Top Authors</div>
         <div class="flex-row space-y-2">

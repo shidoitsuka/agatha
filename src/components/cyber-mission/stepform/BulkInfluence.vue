@@ -1,8 +1,8 @@
 <template>
-  <div class="p-10 space-y-5">
+  <div class="p-10 space-y-5" style="height: 690px;">
     <div class="grid place-items-center">
-      <h3 class="text-xl">Bulk Influence</h3>
-      <h5>Upload pre-set social media comments posts</h5>
+      <h3 class="cyber-text">Bulk Influence</h3>
+      <h5 class="cyber-subtext">Upload pre-set social media comments posts</h5>
     </div>
     <div class="grid p-10 border-2 border-dashed place-items-center border-base-300">
       <div class="text-center">
