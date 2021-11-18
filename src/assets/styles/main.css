@@ -60,6 +60,13 @@
   height: 780px !important;
 }
 
+.dialog-wraper-group {
+  position: absolute !important;
+  width: 660px !important;
+  top: 124px !important;
+  /* height: 780px !important; */
+}
+
 .dialog-wraper-filter {
   position: absolute !important;
   width: 662px !important;

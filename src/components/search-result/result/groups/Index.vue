@@ -70,8 +70,8 @@
       <Item :results="results" @toggle-target="toggleTarget" />
     </div>
   </div>
-  <!-- <TargetDialog :is-open="isOpenTarget" :set-is-open="setIsOpenTarget" />
-  <CreateDialog :is-open="isOpen" :set-is-open="setIsOpen" /> -->
+  <!-- <TargetDialog :is-open="isOpenTarget" :set-is-open="setIsOpenTarget" /> -->
+  <CreateDialog :is-open="isOpen" :set-is-open="setIsOpen" />
 </template>
 
 <script>
@@ -79,7 +79,7 @@ import { ref } from 'vue'
 import Item from './Item.vue'
 import Action from '@/components/search-result/action/Index.vue'
 import LeftMenu from '@/components/search-result/sidebar/LeftMenu.vue'
-// import CreateDialog from '@/components/search-result/result/groups/CreateDialog.vue'
+import CreateDialog from '@/components/search-result/result/groups/CreateDialog.vue'
 // import TargetDialog from './TargetDialog.vue'
 
 export default {
@@ -104,7 +104,7 @@ export default {
     Item,
     Action,
     LeftMenu,
-    // CreateDialog,
+    CreateDialog,
     // TargetDialog,
   },
 

@@ -1,8 +1,16 @@
 <template>
   <Dialog :open="isOpen" @close="setIsOpen" class="fixed inset-0 z-20 flex items-center justify-center">
     <DialogOverlay class="fixed inset-0 opacity-90 bg-base-100" />
-    <div class="z-10 w-11/12 px-8 py-6 space-y-5 rounded shadow-lg md:w-6/12 bg-base-200">
+    <div class="dialog-wraper-group rounded-dialog z-10 w-11/12 px-8 py-6 space-y-5 rounded shadow-lg md:w-6/12 bg-base-200">
       <DialogTitle class="flex flex-col items-center justify-center">
+        <div
+            class="dialog-header pt-5 pr-5"
+            @click="$parent.setIsOpen(false)"
+          >
+            <button tabindex="0">
+              <img src="/icons/close-white.svg" alt="" />
+            </button>
+          </div>
         <h1 class="text-xl">Create Group</h1>
         <h3 class="text-agatha-200">Select which targets to assign to the group</h3>
         <hr class="w-8/12 my-2 border-1 border-agatha-100" />

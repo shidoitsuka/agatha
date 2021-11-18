@@ -179,6 +179,7 @@ export default {
     },
     previewDocument() {
       this.isShowPreviewDocument = !this.isShowPreviewDocument
+      this.isShowRightMenu = false
     },
   },
 }

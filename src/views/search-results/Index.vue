@@ -8,7 +8,7 @@
               <option value="global" selected>Global Search</option>
               <option value="profiler">Profiler Search</option>
             </select>
-            <div v-show="isProfilerSearch" class="hidden px-2 py-1 text-sm font-bold rounded md:block bg-secondary font-filter">PERSON</div>
+            <div v-show="isProfilerSearch" @click="showFilter()" class="hidden px-2 py-1 text-sm font-bold rounded md:block bg-secondary font-filter"><ButtonFilter /></div>
             <img class="hidden md:block" src="/icons/search.svg" alt="">
             <input type="text" placeholder="Search" class="w-full p-0 rounded-l-none input focus:ring-0 bg-base-200">
             <div class="absolute top-0 right-0 rounded-l-none btn-group">
@@ -82,6 +82,7 @@
 <script>
 import { TabGroup, TabList, Tab, TabPanels, TabPanel } from '@headlessui/vue'
 
+import ButtonFilter from '@/components/search-result/result/ButtonFilter.vue'
 import ResultDocument from '@/components/search-result/result/documents/Index.vue'
 import ResultEntityCard from '@/components/search-result/result/entity/Index.vue'
 import ResultAvatar from '@/components/search-result/result/avatars/Index.vue'
@@ -106,6 +107,7 @@ export default {
     ResultAvatar,
     ResultMedia,
     ResultGroup,
+    ButtonFilter,
   },
   data() {
     return {
@@ -115,6 +117,7 @@ export default {
       resultAvatars: resultAvatarData,
       resultMedia: resultMediaData,
       resultGroups: resultGroupData,
+      isOpenFilter: false,
 
       tabs: [
         { id: 1, name: 'Documents', icons: '/icons/documents-alt.svg' },
@@ -130,6 +133,9 @@ export default {
       const currentValue = this.$refs.searchType.value
       if (currentValue === 'profiler') this.isProfilerSearch = true
       else this.isProfilerSearch = false
+    },
+    showFilter() {
+      this.isOpenFilter = !this.isOpenFilter
     },
   },
 }

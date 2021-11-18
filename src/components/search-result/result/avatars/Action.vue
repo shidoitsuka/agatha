@@ -5,10 +5,20 @@
     </div>
     <ul tabindex="0" class="rounded-lg shadow menu dropdown-content bg-base-300 w-72">
       <li>
-        <a>
+        <div tabindex="0" class="dropdown dropdown-right">
+          <a>
           <img class="mr-3" src="/icons/access.svg" alt="">
-          Access
+          Tests
         </a>
+          <ul tabindex="0" class="rounded-lg shadow menu dropdown-content bg-base-300 w-72">
+            <li>
+              <a>
+                <img class="mr-3" src="/icons/access.svg" alt="">
+                Access
+              </a>
+            </li>
+          </ul>
+        </div>
       </li>
       <li>
         <a as="button" @click="setIsOpen(true)">
