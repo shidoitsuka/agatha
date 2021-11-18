@@ -65,7 +65,7 @@
       <Item :results="results" />
     </div>
   </div>
-  <UploadDialog :is-open="isOpen" :set-is-open="setIsOpen" />
+  <!-- <UploadDialog :is-open="isOpen" :set-is-open="setIsOpen" /> -->
 </template>
 
 <script>
@@ -73,7 +73,7 @@ import { ref } from 'vue'
 import Item from './Item.vue'
 import Action from '@/components/search-result/action/Index.vue'
 import LeftMenu from '@/components/search-result/sidebar/LeftMenu.vue'
-import UploadDialog from '@/components/search-result/result/media/UploadDialog.vue'
+// import UploadDialog from '@/components/search-result/result/media/UploadDialog.vue'
 
 export default {
   setup() {
@@ -93,7 +93,7 @@ export default {
     Item,
     Action,
     LeftMenu,
-    UploadDialog,
+    // UploadDialog,
   },
 }
 </script>

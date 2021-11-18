@@ -6,7 +6,7 @@
           <button @click="setIsOpen(true)" class="w-full btn border-agatha-100 btn-sm">
             Create An Avatar
           </button>
-          <CreateDialog :is-open="isOpen" :set-is-open="setIsOpen" />
+          <!-- <CreateDialog :is-open="isOpen" :set-is-open="setIsOpen" /> -->
         </div>
       </template>
       <template #left-menu-item>
@@ -76,7 +76,7 @@ import Item from './Item.vue'
 import Action from '@/components/search-result/action/Index.vue'
 import LeftMenu from '@/components/search-result/sidebar/LeftMenu.vue'
 import RightMenu from './RightMenu.vue'
-import CreateDialog from './CreateDialog.vue'
+// import CreateDialog from './CreateDialog.vue'
 export default {
   setup() {
     const isOpen = ref(false)
@@ -95,7 +95,7 @@ export default {
     Action,
     LeftMenu,
     RightMenu,
-    CreateDialog,
+    // CreateDialog,
   },
 
   data() {

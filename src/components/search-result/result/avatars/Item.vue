@@ -6,7 +6,49 @@
           <div>
             <img v-show="result.isPrivate" src="/icons/private.svg" alt="">
           </div>
-          <Action />
+         <div class="dropdown dropdown-end">
+    <div tabindex="0" class="m-1 ">
+      <img src="/icons/dots.svg" alt="">
+    </div>
+    <ul tabindex="0" class="rounded-lg shadow menu dropdown-content bg-base-300 w-72">
+      <li>
+        <a>
+          <img class="mr-3" src="/icons/access.svg" alt="">
+          Access
+        </a>
+      </li>
+      <li>
+        <a as="button">
+          <img class="mr-3" src="/icons/launch.svg" alt="">
+          Launch
+        </a>
+      </li>
+      <li>
+        <a>
+          <img class="mr-3" src="/icons/bookmark.svg" alt="">
+          Bookmark
+        </a>
+      </li>
+      <li>
+        <a>
+          <img class="mr-3" src="/icons/edit.svg" alt="">
+          Edit
+        </a>
+      </li>
+      <li>
+        <a>
+          <img class="mr-3" src="/icons/unlock.svg" alt="">
+          Unlock
+        </a>
+      </li>
+      <li>
+        <a>
+          <img class="mr-3" src="/icons/delete.svg" alt="">
+          <span class="text-error">Delete</span>
+        </a>
+      </li>
+    </ul>
+  </div>
         </div>
         <div class="flex-row space-y-2 text-center">
           <div class="avatar indicator">
@@ -22,7 +64,7 @@
           </div>
           <span class="text-xs text-agatha-100">{{ result.address }}</span>
           <h5 class="text-xs">Crawled Documents <span class="badge bg-success">{{ result.crawled }}</span> </h5>
-          <div class="flex justify-center space-x-2">
+          <div class="flex justify-center space-x-2"> -->
             <img v-for="icon in result.socials" :key="icon" :src="icon" />
           </div>
         </div>
@@ -34,13 +76,13 @@
 
 <script>
 import Chartitem from '@/components/search-result/result/avatars/Chartitem.vue'
-import Action from '@/components/search-result/result/avatars/Action.vue'
+// import Action from '@/components/search-result/result/avatars/Action.vue'
 export default {
   props: ['results'],
   emits: ['toggleVisualization'],
   components: {
     Chartitem,
-    Action,
+    // Action,
   },
 }
 </script>

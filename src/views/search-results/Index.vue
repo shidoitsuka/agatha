@@ -22,6 +22,24 @@
       </div>
       <div>
         <TabList class="tabs">
+          <!-- <Tab v-slot="{selected}" as="template" class="tab pb-10">
+            <button :class="[selected ? 'text-accent border-b border-accent' : 'text-white' ]">
+              <img class="mr-3" src="/icons/documents-alt.svg" alt="">
+              Documents
+            </button>
+          </Tab>
+          <Tab v-slot="{selected}" as="template" class="tab pb-10">
+            <button :class="[selected ? 'text-accent border-b border-accent' : 'text-white' ]">
+              <img class="mr-3" src="/icons/entity-alt.svg" alt="">
+              Entity Cards
+            </button>
+          </Tab>
+          <Tab v-slot="{selected}" as="template" class="tab pb-10">
+            <button :class="[selected ? 'text-accent border-b border-accent' : 'text-white' ]">
+              <img class="mr-3" src="/icons/entity-alt.svg" alt="">
+              Entity Cards
+            </button>
+          </Tab> -->
           <Tab v-slot="{selected}" as="template" class="pb-10 tab" v-for="tab in tabs" :key="tab.id">
             <button :class="[selected ? 'text-accent border-b border-accent' : 'text-white' ]">
               <img class="mr-3" :src="tab.icons" alt="">

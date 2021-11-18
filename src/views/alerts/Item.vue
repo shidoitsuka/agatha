@@ -3,7 +3,7 @@
     <div v-for="result in results" :key="result" class="rounded-lg cursor-pointer bg-base-200" @click="$emit('toggleVisualization')">
       <div class="mb-10">
         <div class="flex justify-between w-full p-3">
-          <span class="badge bg-success">{{ result.type }}</span>
+          <span class="badge" style="background: #00b49a;">{{ result.type }}</span>
           <Action />
         </div>
         <div class="flex-row space-y-3 text-center">
