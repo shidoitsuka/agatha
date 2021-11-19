@@ -12,30 +12,42 @@
               <img src="/icons/dots.svg" alt="" />
             </div>
 
-            <ul tabindex="0" class="rounded-lg shadow menu dropdown-content bg-base-300 w-72">
+            <ul tabindex="0" style="overflow: visible;" class="rounded-lg shadow menu dropdown-content bg-base-300 w-72">
               <li @click="showSubMenu()">
                 <a>
                   <img class="mr-3" src="/icons/access.svg" alt="" />
                   Access
                 </a>
-                <div style="position: absolute; left: 100px; border: 1px solid red !important;" class="rounded-lg shadow menu bg-base-300 w-72">
+                <div v-show="isShownSubMenu" style="position: absolute; left: 100%; overflow-x: hidden;" class="rounded-lg shadow menu bg-base-300 w-72">
                   <ul style="padding: 0;">
                     <li>
                       <a>
-                        <img class="mr-3" src="/icons/access.svg" alt="">
-                        Testing 1
+                        <img class="mr-3" src="/icons/docs-sm.svg" alt="">
+                        Documents
                       </a>
                     </li>
                     <li>
                       <a>
-                        <img class="mr-3" src="/icons/access.svg" alt="">
-                        Testing 1
+                        <img class="mr-3" src="/icons/media-sm.svg" alt="">
+                        Media
                       </a>
                     </li>
                     <li>
                       <a>
-                        <img class="mr-3" src="/icons/access.svg" alt="">
-                        Testing 1
+                        <img class="mr-3" src="/icons/docs-sm.svg" alt="">
+                        Report
+                      </a>
+                    </li>
+                    <li>
+                      <a>
+                        <img class="mr-3" src="/icons/timeline-sm.svg" alt="">
+                        Timeline
+                      </a>
+                    </li>
+                    <li>
+                      <a>
+                        <img class="mr-3" src="/icons/analysis-sm.svg" alt="">
+                        Link Analysis
                       </a>
                     </li>
                   </ul>
@@ -98,7 +110,6 @@
             <span class="badge bg-success">{{ result.crawled }}</span>
           </h5>
           <div class="flex justify-center space-x-2">
-            -->
             <img v-for="icon in result.socials" :key="icon" :src="icon" />
           </div>
         </div>
@@ -118,8 +129,15 @@ export default {
     Chartitem,
     // Action,
   },
+  data() {
+    return {
+      isShownSubMenu: false,
+    }
+  },
   methods: {
-    showSubMenu() {},
+    showSubMenu() {
+      this.isShownSubMenu = !this.isShownSubMenu
+    },
   },
 }
 </script>

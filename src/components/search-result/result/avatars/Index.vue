@@ -64,7 +64,7 @@
           </div>
         </template>
       </Action>
-      <Item :results="results" @toggle-visualization="toggleVisualization" />
+      <Item style="overflow-x: hidden;" :results="results" @toggle-visualization="toggleVisualization" />
     </div>
     <RightMenu :isShow="isVisualization" />
   </div>

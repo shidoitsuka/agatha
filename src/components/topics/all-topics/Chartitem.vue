@@ -1,6 +1,6 @@
 <template>
   <div class="rounded-b-lg bg-agatha-100">
-    <apexchart width="100%" type="line" height="100px" :options="chartOptions" :series="series"></apexchart>
+    <apexchart style="background: #292932;" width="100%" type="line" height="100px" :options="chartOptions" :series="series"></apexchart>
   </div>
 </template>
 <script>
