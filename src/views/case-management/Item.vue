@@ -1,6 +1,6 @@
 <template>
   <div class="grid w-full grid-cols-1 gap-4 md:grid-cols-3 ">
-    <div v-for="result in results" :key="result" class="rounded-lg cursor-pointer bg-base-200" @click="$emit('toggleVisualization')">
+    <div v-for="result in results" :key="result" class="rounded-lg cursor-pointer bg-base-200">
       <div>
         <div class="flex justify-between w-full p-3">
           <div>
@@ -10,7 +10,7 @@
         </div>
         <div class="flex-row mb-5 space-y-2 text-center">
           <div class="avatar indicator">
-            <div class="w-24 h-24 rounded-full">
+            <div class="w-24 h-24 rounded-full" @click="$emit('toggleVisualization')">
               <img :src="result.avatar">
             </div>
           </div>
