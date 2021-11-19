@@ -6,6 +6,7 @@
     :open="isOpen"
     @close="setIsOpen"
     class="fixed inset-0 flex items-center justify-center"
+    style="z-index: 10000 !important;"
   >
     <DialogOverlay class="fixed inset-0 opacity-90 bg-base-100" />
     <div

@@ -9,12 +9,7 @@ module.exports = {
       fontFamily: {
         sans: ['Mulish', ...defaultTheme.fontFamily.sans],
       },
-      width: {
-        '100': '100px',
-        '286': '288px',
-        '292': '292px',
-        '359': '359px',
-      },
+      width: { '100': '100px', '286': '288px', '292': '292px', '359': '359px' },
       height: {
         '100': '100px',
         '286': '288px',

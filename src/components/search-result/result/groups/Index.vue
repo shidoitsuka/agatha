@@ -1,5 +1,6 @@
 <template>
   <div class="flex w-full text-sm">
+  <CreateDialog :is-open="isOpen" :set-is-open="setIsOpen" />
     <LeftMenu>
       <template #action-menu>
         <div class="p-4 border-b-2 border-base-300">
@@ -71,7 +72,6 @@
     </div>
   </div>
   <!-- <TargetDialog :is-open="isOpenTarget" :set-is-open="setIsOpenTarget" /> -->
-  <CreateDialog :is-open="isOpen" :set-is-open="setIsOpen" />
 </template>
 
 <script>
@@ -79,7 +79,7 @@ import { ref } from 'vue'
 import Item from './Item.vue'
 import Action from '@/components/search-result/action/Index.vue'
 import LeftMenu from '@/components/search-result/sidebar/LeftMenu.vue'
-import CreateDialog from '@/components/search-result/result/groups/CreateDialog.vue'
+import CreateDialog from './CreateDialog.vue'
 // import TargetDialog from './TargetDialog.vue'
 
 export default {

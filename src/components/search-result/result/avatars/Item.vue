@@ -107,7 +107,7 @@
           <span class="text-xs text-agatha-100">{{ result.address }}</span>
           <h5 class="text-xs">
             Crawled Documents
-            <span class="badge bg-success">{{ result.crawled }}</span>
+            <span class="badge bg-secondary">{{ result.crawled }}</span>
           </h5>
           <div class="flex justify-center space-x-2">
             <img v-for="icon in result.socials" :key="icon" :src="icon" />
