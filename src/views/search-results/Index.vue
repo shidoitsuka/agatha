@@ -26,7 +26,6 @@
             <button :class="[selected ? 'text-accent border-b border-accent' : 'text-white' ]">
               <img class="mr-3" src="/icons/documents-alt.svg" alt="">
               Documents
-            </button>
           </Tab>
           <Tab v-slot="{selected}" as="template" class="tab pb-10">
             <button :class="[selected ? 'text-accent border-b border-accent' : 'text-white' ]">
