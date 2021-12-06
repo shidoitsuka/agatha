@@ -75,8 +75,70 @@
   height: 447px !important;
 }
 
+.dialog-wraper-saveentity {
+  position: absolute !important;
+  width: 621px !important;
+  top: 110px !important;
+  height: 354px !important;
+}
+
+.saveentity-dialog--card {
+  width: 168px;
+  height: 60px;
+  border-radius: 16px;
+}
+
+.saveentity-dialog--card-img {
+  width: 40px !important;
+  height: 40px !important;
+}
+
+.saveentity-dialog--footer {
+  border-radius: 0 0 16px 16px;
+  background: #292932 0% 0% no-repeat padding-box;
+  position: absolute;
+  bottom: 0;
+  width: 621px;
+  height: 72px;
+}
+
+.saveentity-dialog--btn {
+  width: 126px;
+  height: 40px;
+  font: normal normal bold 12px/16px Mulish;
+  letter-spacing: 0px;
+  color: #FAFAFB;
+}
+
+.saveentity-dialog--card-title {
+  text-align: left;
+  font: normal normal 600 13px/16px Mulish;
+  letter-spacing: 0px;
+  color: #FFFFFF;
+}
+
+.saveentity-dialog--card-subtitle {
+  text-align: left;
+  font: normal normal normal 12px/15px Mulish;
+  letter-spacing: 0px;
+  color: #B5B5BE;
+}
+
+.saveentity-dialog--title {
+  text-align: left;
+  font: normal normal bold 18px/23px Mulish;
+  letter-spacing: 0px;
+  color: #FAFAFB;
+}
+
 .font-filter {
   font-size: 11px;
+}
+
+.saveentity-dialog--exit-btn {
+  position: absolute;
+  top: 80px;
+  margin-left: 145px;
 }
 
 .upload-filter {
@@ -93,8 +155,97 @@
   font-size: 12px;
 }
 
+.profiler-profile--text-description-title {
+  text-align: left;
+  font: normal normal normal 12px/16px Mulish;
+  letter-spacing: 0px;
+  color: #92929D;
+}
+
+.profiler-profile--text-description {
+  text-align: left;
+  font: normal normal normal 13px/19px Mulish;
+  letter-spacing: 0px;
+  color: #D5D5DC;
+}
+
+.profiler-profile--container {
+  width: 972px;
+  height: 888px;
+}
+
+.profiler-profile--img {
+  width: 88px;
+  height: 88px;
+  border-radius: 4px;
+}
+
+.profiler-profile--table-title {
+  font: normal normal normal 14px/18px Mulish;
+  letter-spacing: 0px;
+  color: #FAFAFB;
+}
+
+.profiler-profile--table-subtitle {
+  font: normal normal normal 13px/16px Mulish;
+  letter-spacing: 0px;
+  color: #FAFAFB;
+}
+
+.profiler-profile--table-left {
+  color: #92929D;
+  font: normal normal normal 13px/16px Mulish;
+  letter-spacing: 0px;
+}
+
+.profiler-profile--table-right {
+  color: #fafafb;
+  font: normal normal normal 13px/16px Mulish;
+  letter-spacing: 0px;
+}
+
 .profiler-filter-content {
   margin-top: 50px !important;
+}
+
+.vindb-left--category-title {
+  font: normal normal normal 14px/16px Mulish;
+  letter-spacing: 0px;
+  color: #D5D5DC;
+}
+
+.vindb-left--categories {
+  font: normal normal normal 14px/19px Mulish;
+  letter-spacing: 0px;
+  color: #FAFAFB;
+}
+
+.vindb-table--title {
+  font: normal normal normal 14px/18px Mulish;
+  letter-spacing: 0px;
+  color: #FAFAFB;
+  background: #292932;
+  border-radius: 16px;
+}
+
+.vindb-table--left {
+  font: normal normal normal 13px/16px Mulish;
+  letter-spacing: 0px;
+  color: #92929D;
+}
+
+.vin-db--table tr, td {
+  padding: 10px;
+}
+
+.vindb-table--right {
+  font: normal normal normal 14px/18px Mulish;
+  letter-spacing: 0px;
+  color: #FAFAFB;
+}
+
+.vibdb-table--even {
+  background: #202028;
 }
 
 .btn-action-filter {
@@ -194,6 +345,27 @@
   line-height: 24px;
 }
 
+.topic-overview--card-title {
+  font: normal normal normal 14px/18px Mulish;
+  opacity: .5;
+  color: #FFFFFF;
+}
+
+.topic-overview--card-description {
+  font: normal normal 900 24px/30px Mulish;
+  color: #FFFFFF;
+}
+
+.topic-overview--bottom-card-title {
+  font: normal normal 800 14px/18px Mulish;
+  color: #FAFAFB;
+}
+
+.topic-overview--bottom-card-content {
+  font: normal normal normal 13px/15px Mulish;
+  color: #D5D5DC;
+}
+
 /* CASE & ENTITY */
 .case-img, .entity-img {
   width: 56px;
@@ -262,6 +434,74 @@
   letter-spacing: 0px;
   color: #D5D5DC;
   text-align: center;
+}
+
+.primary--label {
+  position: absolute;
+  background: #7735D5;
+  padding: 8px 8px 24px 8px;
+  font: normal normal 600 11px/14px Mulish;
+  letter-spacing: 0.44px;
+  color: #FAFAFB;
+  border-radius: 16px 16px 0 0;
+  margin-top: -10px;
+  z-index: 1 !important;
+}
+
+.primary--secondary-label {
+  position: absolute;
+  background: #44444F;
+  padding: 8px 8px 24px 8px;
+  font: normal normal 600 11px/14px Mulish;
+  letter-spacing: 0.44px;
+  color: #FAFAFB;
+  border-radius: 16px 16px 0 0;
+  margin-top: -10px;
+  z-index: 1 !important;
+}
+
+.confirmed-card--container {
+  margin-top: 20px;
+  z-index: 2 !important;
+  width: 364px;
+  height: 155px;
+  border-radius: 16px;
+}
+
+.possible-card--container {
+  width: 364px;
+  height: 155px;
+  border-radius: 16px;
+}
+
+/* .confirmed-card--inner {
+  z-index: 2;
+} */
+
+.confirmed-card--bottom {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  border-top: 1px solid #44444F;
+  padding-top: 10px;
+}
+
+.confirmed-card--bottom-number {
+  margin-right: 4px;
+  text-align: center;
+  border: 1px solid #44444F;
+  border-radius: 50%;
+  padding: 5px 9px;
+  font: normal normal bold 12px/16px Mulish;
+  letter-spacing: -0.24px;
+  color: #FFFFFF;
+}
+
+.confirmed-card--bottom-text {
+  text-align: left;
+  font: normal normal 600 12px/15px Mulish;
+  letter-spacing: 0px;
+  color: #E2E2EA;
 }
 
 /* SCROLLBAR */
