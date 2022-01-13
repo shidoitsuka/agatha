@@ -23,6 +23,7 @@ import CyberMissionActionLog from '@/views/cyber-mission/ActionLog.vue'
 import Topics from '@/views/topics/Index.vue'
 import InfiltrationList from '@/views/infiltration/List.vue'
 import InfiltrationView from '@/views/infiltration/View.vue'
+import MissionView from '@/views/mission/View.vue'
 import VINDatabase from '@/views/vindb/View.vue'
 import VINDatabaseSearch from '@/views/vindb-search/View.vue'
 import FaceSearch from '@/views/face-search/View.vue'
@@ -53,6 +54,7 @@ export const routes = [
   { path: '/topics', name: 'Topics', component: Topics, meta: { layout: 'DashboardWithoutSidebarLayout' } },
   { path: '/infiltration/list', name: 'Infiltration List', component: InfiltrationList, meta: { layout: 'DashboardWithoutSidebarLayout' } },
   { path: '/infiltration/view', name: 'Infiltration View', component: InfiltrationView, meta: { layout: 'DashboardWithoutSidebarLayout' } },
+  { path: '/mission/view', name: 'Mission View', component: MissionView, meta: { layout: 'DashboardWithoutSidebarLayout' } },
   { path: '/vindb', name: 'VIN Database', component: VINDatabase, meta: { layout: 'DashboardWithoutSidebarLayout' } },
   { path: '/vindb-search', name: 'VIN Database Search', component: VINDatabaseSearch, meta: { layout: 'DashboardWithoutSidebarLayout' } },
   { path: '/face-search', name: 'Face Search', component: FaceSearch, meta: { layout: 'DashboardWithoutSidebarLayout' } },

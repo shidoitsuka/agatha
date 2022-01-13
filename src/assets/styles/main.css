@@ -310,6 +310,11 @@
   color: #FAFAFB;
 }
 
+.sidebar-collapse--font {
+  font: normal normal normal 14px/13px Mulish;
+  color: #D5D5DC;
+}
+
 .media-facepicture--label-font {
   font: normal normal 600 13px/16px Mulish;
   color: #92929D;
@@ -364,6 +369,106 @@
 .topic-overview--bottom-card-content {
   font: normal normal normal 13px/15px Mulish;
   color: #D5D5DC;
+}
+
+.report-download--content-name {
+  font: normal normal 600 16px/16px Mulish;
+  letter-spacing: 0px;
+  color: #FAFAFB;
+}
+
+.report-download--content-date {
+  font: normal normal normal 12px/15px Mulish;
+  letter-spacing: 0px;
+  color: #696974;
+}
+
+.report-download--content-description {
+  text-align: left;
+  font: normal normal normal 13px/16px Mulish;
+  letter-spacing: 0px;
+  opacity: 1;
+  color: #B5B5BE;
+}
+
+.cyber-mission--title {
+  font: normal normal bold 14px/18px Mulish;
+  letter-spacing: 0px;
+  color: #FAFAFB;
+}
+
+.cyber-mission--description {
+  font: normal normal normal 13px/16px Mulish;
+  letter-spacing: 0px;
+  color: #B5B5BE;
+}
+
+.cyber-mission--status {
+  font: normal normal 600 10px/15px Mulish;
+  letter-spacing: 0px;
+  color: #FFFFFF;
+}
+
+.infiltration-card--container {
+  border: 1px solid #32224E;
+  border-radius: 4px;
+  background: #32224E 0% 0% no-repeat padding-box;
+}
+
+.infiltration-card--text {
+  font: normal normal 900 19px/24px Mulish;
+  letter-spacing: 0px;
+  color: #FFFFFF;
+}
+
+.infiltration-card--title {
+  font: normal normal normal 10px/13px Mulish;
+  letter-spacing: 0px;
+  color: #E2CEFF;
+}
+
+.mission-left--description {
+  font: normal normal normal 13px/19px Mulish;
+  letter-spacing: 0px;
+  color: #D5D5DC;
+}
+
+.mission-post--container {
+  background: #242526;
+}
+
+.mission-post--poster {
+  font: normal normal medium 14px/38px Helvetica Neue;
+  letter-spacing: 0.28px;
+  color: #E4E6EB;
+}
+
+.mission-post--date {
+  font: normal normal normal 12px/38px Helvetica Neue;
+  letter-spacing: 0.24px;
+  color: #606770;
+}
+
+.mission-post--description {
+  font: normal normal normal 14px/20px Helvetica Neue;
+  letter-spacing: 0.28px;
+  color: #E4E6EB;
+}
+
+* {
+  /* border: 1px solid red; */
+}
+
+.mission-view--left-title {
+  font: normal normal bold 14px/18px Mulish;
+  letter-spacing: 0px;
+  color: #FAFAFB;
+}
+
+.mission-view--left-subtitle {
+  font: normal normal normal 13px/16px Mulish;
+  letter-spacing: 0px;
+  color: #FFFFFF;
 }
 
 /* CASE & ENTITY */
@@ -473,10 +578,6 @@
   height: 155px;
   border-radius: 16px;
 }
-
-/* .confirmed-card--inner {
-  z-index: 2;
-} */
 
 .confirmed-card--bottom {
   display: flex;

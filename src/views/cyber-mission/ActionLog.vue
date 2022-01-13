@@ -11,28 +11,28 @@
       <template #left-menu-item>
         <div class="w-full collapse collapse-arrow">
           <input type="checkbox" />
-          <div class="px-0 collapse-title">Date</div>
+          <div class="px-0 collapse-title sidebar-collapse--font">Date</div>
           <div class="space-y-4 collapse-content">
             Link
           </div>
         </div>
         <div class="w-full collapse collapse-arrow">
           <input type="checkbox" />
-          <div class="px-0 collapse-title">Social Media</div>
+          <div class="px-0 collapse-title sidebar-collapse--font">Social Media</div>
           <div class="space-y-4 collapse-content">
             Link
           </div>
         </div>
         <div class="w-full collapse collapse-arrow">
           <input type="checkbox" />
-          <div class="px-0 collapse-title">Action</div>
+          <div class="px-0 collapse-title sidebar-collapse--font">Action</div>
           <div class="space-y-4 collapse-content">
             Link
           </div>
         </div>
         <div class="w-full collapse collapse-arrow">
           <input type="checkbox" />
-          <div class="px-0 collapse-title">Status</div>
+          <div class="px-0 collapse-title sidebar-collapse--font">Status</div>
           <div class="space-y-4 collapse-content">
             Link
           </div>
@@ -43,11 +43,11 @@
       <Action />
       <Item :actions="actions" />
     </div>
-    <RightMenu title="Visualizations">
+    <!-- <RightMenu title="Visualizations">
       <template #right-menu-item>
         <Visualization />
       </template>
-    </RightMenu>
+    </RightMenu> -->
   </div>
 
   <RunDialog :is-open="isOpen" :set-is-open="setIsOpen" />
@@ -58,8 +58,8 @@ import { ref } from 'vue'
 import actionLogJson from '@/data/action-log.json'
 import Action from '@/components/search-result/action/Index.vue'
 import LeftMenu from '@/components/search-result/sidebar/LeftMenu.vue'
-import RightMenu from '@/components/search-result/sidebar/RightMenu.vue'
-import Visualization from '@/components/search-result/chart/Visualization.vue'
+// import RightMenu from '@/components/search-result/sidebar/RightMenu.vue'
+// import Visualization from '@/components/search-result/chart/Visualization.vue'
 import Item from '@/components/cyber-mission/Item.vue'
 import RunDialog from '@/components/cyber-mission/RunDialog.vue'
 
@@ -77,9 +77,9 @@ export default {
   components: {
     Action,
     LeftMenu,
-    RightMenu,
+    // RightMenu,
     Item,
-    Visualization,
+    // Visualization,
     RunDialog,
   },
   data() {

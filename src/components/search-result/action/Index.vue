@@ -9,14 +9,18 @@
       <slot name="left-action"></slot>
     </div>
     <div class="flex items-center space-x-3">
-      <small v-show="showRecord" class="text-sm">Records: 141</small>
+      <small v-show="showRecord" class="text-sm"><SearchBar /></small>
       <slot name="right-action"></slot>
     </div>
   </div>
 </template>
 
 <script>
+import SearchBar from './SearchBar.vue'
 export default {
+  components: {
+    SearchBar,
+  },
   props: {
     timeline: Boolean,
     showRecord: {

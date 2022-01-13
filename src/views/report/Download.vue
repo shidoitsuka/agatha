@@ -42,14 +42,14 @@
       </template>
     </LeftMenu>
     <div class="flex-grow px-8 mb-5 space-y-5">
-      <Action>
+      <!-- <Action>
         <template #left-action>
           <div class="flex px-1 rounded-lg bg-base-200">
             <img src="/icons/search.svg" alt="">
             <input type="text" class="focus:ring-0 input bg-base-200" placeholder="Search reports">
           </div>
         </template>
-      </Action>
+      </Action> -->
       <div class="rounded-lg bg-base-200">
         <div class="flex justify-between p-4 border-b border-base-300">
           <div class="flex items-center">
@@ -57,19 +57,20 @@
             Select All
           </div>
           <div class="space-x-3">
+            <button class="capitalize btn btn-sm bg-base-300"><img src="/icons/merge.svg" alt="" class="mr-2"> Merge Reports</button>
             <button class="capitalize btn btn-sm btn-primary">Download Selected</button>
-            <button class="capitalize btn-outline btn btn-sm">Clear Selected</button>
           </div>
         </div>
         <div class="divide-y divide-base-300">
           <div v-for="content in contents" :key="content" class="flex items-center justify-between p-4 space-x-4">
             <img :src="content.icons" alt="">
             <div class="flex-auto">
-              <h3>{{ content.name }}</h3>
-              <h5 class="text-sm text-agatha-200">{{ content.description }}</h5>
-              <h6 class="mt-2 text-xs text-accent">{{ content.date }}</h6>
+              <h3 class="report-download--content-name">{{ content.name }} <span class="report-download--content-date">{{ content.date }}</span> </h3>
+              <h5 class="text-sm text-accent mt-2">Profiler - <span class="report-download--content-description">{{ content.description }}</span></h5>
             </div>
-            <button class="capitalize btn btn-sm btn-primary btn-outline">Download</button>
+            <button style="height: 28px; width: 28px;"><img src="/icons/download.svg" alt=""></button>
+            <button style="height: 28px; width: 28px;"><img src="/icons/edit.svg" alt=""></button>
+            <button style="height: 28px; width: 28px;"><img src="/icons/delete.svg" alt=""></button>
           </div>
         </div>
       </div>
@@ -78,12 +79,12 @@
 </template>
 
 <script>
-import Action from '@/components/search-result/action/Index.vue'
+// import Action from '@/components/search-result/action/Index.vue'
 import LeftMenu from '@/components/search-result/sidebar/LeftMenu.vue'
 
 export default {
   components: {
-    Action,
+    // Action,
     LeftMenu,
   },
   data() {
