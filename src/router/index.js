@@ -7,10 +7,12 @@ import SearchHistory from '@/views/search-results/history/Index.vue'
 import SearchResult from '@/views/search-results/Result.vue'
 import ProfilerSearchResult from '@/views/profiler-search-result/Result.vue'
 import ProfilerProfile from '@/views/profiler-profile/Result.vue'
+import ProfilerHistory from '@/views/profiler-history/Result.vue'
 import SearchProfiler from '@/views/search-results/Index.vue'
 import Alerts from '@/views/alerts/Index.vue'
 import CaseManagement from '@/views/case-management/Index.vue'
 import CaseDashboard from '@/views/case-dashboard/Index.vue'
+import UserDashboard from '@/views/user-dashboard/Index.vue'
 import Bookmark from '@/views/bookmark/Index.vue'
 import MapShape from '@/views/map/Shapes.vue'
 import MapAction from '@/views/map/Action.vue'
@@ -38,10 +40,12 @@ export const routes = [
   { path: '/search-result', name: 'Search Result', component: SearchResult, meta: { layout: 'DashboardWithoutSidebarLayout' } },
   { path: '/profiler-search-result', name: 'Profiler Search Result', component: ProfilerSearchResult, meta: { layout: 'DashboardWithoutSidebarLayout' } },
   { path: '/profiler-profile', name: 'Profiler Profile', component: ProfilerProfile, meta: { layout: 'DashboardWithoutSidebarLayout' } },
+  { path: '/profiler-history', name: 'Profiler History', component: ProfilerHistory, meta: { layout: 'DashboardWithoutSidebarLayout' } },
   { path: '/search-profiler', name: 'Search Document, Entity, Avatars, Media, Groups', component: SearchProfiler, meta: { layout: 'DashboardWithoutSidebarLayout' } },
   { path: '/alerts', name: 'Alert', component: Alerts, meta: { layout: 'DashboardWithoutSidebarLayout' } },
   { path: '/case-management', name: 'Case Management', component: CaseManagement, meta: { layout: 'DashboardWithoutSidebarLayout' } },
   { path: '/case-dashboard', name: 'Case Dashboard', component: CaseDashboard, meta: { layout: 'DashboardWithoutSidebarLayout' } },
+  { path: '/user-dashboard', name: 'User Dashboard', component: UserDashboard, meta: { layout: 'DashboardWithoutSidebarLayout' } },
   { path: '/bookmarks', name: 'Bookmark', component: Bookmark, meta: { layout: 'DashboardWithoutSidebarLayout' } },
   { path: '/map/shapes', name: 'Map Shapes', component: MapShape, meta: { layout: 'DashboardWithoutSidebarLayout' } },
   { path: '/map/action', name: 'Map Action', component: MapAction, meta: { layout: 'DashboardWithoutSidebarLayout' } },
