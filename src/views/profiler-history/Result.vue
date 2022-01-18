@@ -18,15 +18,53 @@
     <div class="profiler-history-right--container w-full mr-5 space-y-2">
       <div class="bg-base-200 rounded-lg mx-auto p-5 w-full">
         <div class="flex">
-          <img src="/icons/search.svg" class="profiler-history--image" alt="">
-          <span class="profiler-history--title">brian.harianja@gmail.com</span>
+          <img src="/icons/search.svg" class="profiler-history--image mr-2" alt="">
+          <span class="profiler-history--email mt-1">autonoms@yahoo.com</span>
         </div>
-        <div class="profiler-history--content border-l ml-1 border-base-300">
+        <div class="profiler-history--content border-l ml-3 mt-1 border-base-300">
           <p class="profiler-history--content-found ml-4">16 Entities Found</p>
           <p class="profiler-history--content-date ml-4">11-16-2021</p>
         </div>
       </div>
       <div class="bg-base-200 rounded-lg mx-auto p-5 w-full">
+        <div class="flex">
+          <img src="/icons/search.svg" class="profiler-history--image mr-2" alt="">
+          <span class="profiler-history--email mt-1">autonoms@yahoo.com</span>
+        </div>
+        <div class="profiler-history--content border-l ml-3 mt-1 border-base-300">
+          <p class="profiler-history--content-found ml-4">16 Entities Found</p>
+          <p class="profiler-history--content-date ml-4">11-16-2021</p>
+        </div>
+      </div>
+      <div class="bg-base-200 rounded-lg mx-auto p-5 w-full">
+        <div class="flex">
+          <img src="/icons/search.svg" class="profiler-history--image mr-2" alt="">
+          <span class="profiler-history--email mt-1">autonoms@yahoo.com</span>
+        </div>
+        <div class="profiler-history--content border-l ml-3 mt-1 border-base-300">
+          <p class="profiler-history--content-found ml-4">16 Entities Found</p>
+          <p class="profiler-history--content-date ml-4">11-16-2021</p>
+        </div>
+      </div>
+      <div class="bg-base-200 rounded-lg mx-auto p-5 w-full">
+        <div class="flex">
+          <img src="/icons/search.svg" class="profiler-history--image mr-2" alt="">
+          <span class="profiler-history--email mt-1">autonoms@yahoo.com</span>
+        </div>
+        <div class="profiler-history--content border-l ml-3 mt-1 border-base-300">
+          <p class="profiler-history--content-found ml-4">16 Entities Found</p>
+          <p class="profiler-history--content-date ml-4">11-16-2021</p>
+        </div>
+      </div>
+      <div class="bg-base-200 rounded-lg mx-auto p-5 w-full">
+        <div class="flex">
+          <img src="/icons/search.svg" class="profiler-history--image mr-2" alt="">
+          <span class="profiler-history--email mt-1">autonoms@yahoo.com</span>
+        </div>
+        <div class="profiler-history--content border-l ml-3 mt-1 border-base-300">
+          <p class="profiler-history--content-found ml-4">16 Entities Found</p>
+          <p class="profiler-history--content-date ml-4">11-16-2021</p>
+        </div>
       </div>
     </div>
   </div>

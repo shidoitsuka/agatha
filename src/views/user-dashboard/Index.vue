@@ -17,7 +17,7 @@
               which card was clicked.
             </p>
           </div>
-          <div class="flex user-dashboard--button-container space-x-2">
+          <div class="flex user-dashboard--button-container space-x-3">
             <div class="flex flex-col items-center space-y-1">
               <img src="/icons/launch-alt.svg" alt="" />
               <span class="font-light text-gray-400">Launch</span>

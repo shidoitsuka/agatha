@@ -3,7 +3,7 @@
     <div>
       <slot name="action-menu"></slot>
     </div>
-    <div class="flex-row px-8 divide-y divide-base-300">
+    <div class="flex-row px-3 divide-y divide-base-300">
       <slot name="left-menu-item"></slot>
     </div>
   </div>

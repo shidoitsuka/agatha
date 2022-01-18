@@ -485,6 +485,52 @@
   letter-spacing: 0px;
 }
 
+.profiler-history--image {
+  color: #92929D 0% 0% no-repeat padding-box;
+}
+
+.profiler-history--email {
+  font: normal normal 600 14px/18px Mulish;
+  letter-spacing: 0px;
+  color: #FAFAFB;
+}
+
+.profiler-history--found {
+  font: normal normal normal 14px/18px Mulish;
+  letter-spacing: 0px;
+  color: #B5B5BE;
+}
+
+.profiler-history--content-date {
+  font: normal normal normal 13px/16px Mulish;
+  letter-spacing: 0px;
+  color: #B5B5BE;
+}
+
+.user-dashboard--popular-fake-news-title {
+  font: normal normal bold 16px/15px Mulish;
+  letter-spacing: 0px;
+  color: #FAFAFB;
+}
+
+.user-dashboard-summary--amount {
+  font: normal normal normal 12px/19px Mulish;
+  letter-spacing: 0px;
+  color: #FAFAFB;
+}
+
+.user-dashboard-summary--amount {
+  font: normal normal 900 17px/19px Mulish;
+  letter-spacing: 0.68px;
+  color: #FAFAFB;
+}
+
+.user-dashboard--popular-fake-news-number, .user-dashboard--popular-fake-news-description {
+  font: normal normal normal 14px/19px Mulish;
+  letter-spacing: 0px;
+  color: #FAFAFB;
+}
+
 .drag-and-drop--font {
   font: normal normal normal 18px/23px Mulish;
   color: #FDFEFF;
