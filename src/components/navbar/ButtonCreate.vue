@@ -6,7 +6,7 @@
     </button>
     <ul tabindex="0" class="space-y-0 divide-y-2 rounded-lg shadow w-359 menu dropdown-content bg-base-300 divide-agatha-100 divide-opacity-25">
       <div class="p-2 md:p-4 bg-primary ">
-        <h1 class="text-sm md:text-lg">Create</h1>
+        <h1 class="text-sm font-semibold md:text-lg">Create</h1>
       </div>
       <li>
         <a as="button" @click="setIsOpenEntity(true)" class="flex space-x-4">
@@ -32,6 +32,24 @@
           <div>
             <h3 class="text-sm md:text-base">Case</h3>
             <p class="text-gray-400 text-2xs md:text-sm">Collect documents mentioned significantly in social or other media.</p>
+          </div>
+        </a>
+      </li>
+      <li>
+        <a as="button" class="flex space-x-4">
+          <img class="w-8 h-8 md:w-10 md:h-10" src="/icons/infiltration.svg" alt="">
+          <div>
+            <h3 class="text-sm md:text-base">Infiltration</h3>
+            <p class="text-gray-400 text-2xs md:text-sm">Infiltrate social media groups or profile targets..</p>
+          </div>
+        </a>
+      </li>
+      <li>
+        <a as="button" class="flex space-x-4">
+          <img class="w-8 h-8 md:w-10 md:h-10" src="/icons/cyber-mission.svg" alt="">
+          <div>
+            <h3 class="text-sm md:text-base">Cyber Mission</h3>
+            <p class="text-gray-400 text-2xs md:text-sm">Automate interactions that are of interest to you..</p>
           </div>
         </a>
       </li>

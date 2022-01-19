@@ -105,7 +105,7 @@
 import { ref } from 'vue'
 import Action from '@/components/search-result/action/Index.vue'
 import LeftMenu from '@/components/search-result/sidebar/LeftMenu.vue'
-import CreateDialog from '@/components/infiliration/Dialog.vue'
+import CreateDialog from '@/components/infiltration/Dialog.vue'
 
 export default {
   setup() {
