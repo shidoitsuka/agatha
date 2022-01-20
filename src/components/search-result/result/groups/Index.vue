@@ -4,7 +4,7 @@
     <LeftMenu>
       <template #action-menu>
         <div class="p-4 border-b-2 border-base-300">
-          <button @click="setIsOpen(true)" class="w-full btn border-agatha-100 btn-sm">
+          <button @click="setIsOpenGroup(true)" class="w-full btn border-agatha-100 btn-sm">
             Create A Group
           </button>
         </div>
@@ -89,7 +89,7 @@ export default {
     return {
       isOpen,
       isOpenTarget,
-      setIsOpen(value) {
+      setIsOpenGroup(value) {
         isOpen.value = value
       },
       setIsOpenTarget(value) {

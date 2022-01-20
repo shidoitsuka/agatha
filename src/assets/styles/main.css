@@ -41,9 +41,14 @@
   color: #b5b5be;
 }
 
+.contact-dialog--container {
+  width: 157px;
+  height: 130px;
+}
+
 /* DIALOGS */
 .rounded-dialog {
-  border-radius: 16px !important;
+  border-radius: 8px !important;
 }
 
 .dialog-infiltrating {
@@ -594,7 +599,7 @@
   font: normal normal 600 11px/14px Mulish;
   letter-spacing: 0.44px;
   color: #FAFAFB;
-  border-radius: 16px 16px 0 0;
+  border-radius: 8px 8px 0 0;
   margin-top: -10px;
   z-index: 1 !important;
 }
@@ -606,7 +611,7 @@
   font: normal normal 600 11px/14px Mulish;
   letter-spacing: 0.44px;
   color: #FAFAFB;
-  border-radius: 16px 16px 0 0;
+  border-radius: 8px 8px 0 0;
   margin-top: -10px;
   z-index: 1 !important;
 }
@@ -616,13 +621,13 @@
   z-index: 2 !important;
   width: 364px;
   height: 155px;
-  border-radius: 16px;
+  border-radius: 8px;
 }
 
 .possible-card--container {
   width: 364px;
   height: 155px;
-  border-radius: 16px;
+  border-radius: 8px;
 }
 
 .confirmed-card--bottom {
