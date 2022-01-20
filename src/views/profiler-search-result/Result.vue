@@ -7,7 +7,7 @@
     <SidebarLeft />
     <div class="flex-grow px-8 mb-5 space-y-5">
       <div class="p-4 space-y-3 rounded-lg bg-base-200">
-        <div class="flex items-center justify-between">
+        <div class="flex items-center justify-between px-5">
           <div class="flex space-x-3">
             <h3>3 Confirmed Selected</h3>
           </div>
@@ -33,7 +33,7 @@
                       </div>
                     </div>
                     <div>
-                      <div style="width: 260px" class="flex justify-between">
+                      <div style="width: 300px" class="flex justify-between">
                         <h3 class="text-sm">David Snowden</h3>
                       </div>
                       <p class="text-sm text-agatha-400">United States</p>
@@ -76,7 +76,7 @@
                       </div>
                     </div>
                     <div>
-                      <div style="width: 260px" class="flex justify-between">
+                      <div style="width: 300px" class="flex justify-between">
                         <h3 class="text-sm">David Snowden</h3>
                       </div>
                       <p class="text-sm text-agatha-400">United States</p>
@@ -119,7 +119,7 @@
                       </div>
                     </div>
                     <div>
-                      <div style="width: 260px" class="flex justify-between">
+                      <div style="width: 300px" class="flex justify-between">
                         <h3 class="text-sm">David Snowden</h3>
                       </div>
                       <p class="text-sm text-agatha-400">United States</p>
@@ -149,7 +149,7 @@
       </div>
       <div class="p-4 space-y-3 rounded-lg bg-base-200">
         <div class="flex items-center justify-between">
-          <div class="flex space-x-3">
+          <div class="flex space-x-3 px-5">
             <h3>3 Possible Matches</h3>
           </div>
         </div>
@@ -171,7 +171,7 @@
                       </div>
                     </div>
                     <div>
-                      <div style="width: 260px" class="flex justify-between">
+                      <div style="width: 300px" class="flex justify-between">
                         <h3 class="text-sm">David Snowden</h3>
                         <button class="text-error">
                           <img src="/icons/add.svg" alt="" />
@@ -214,7 +214,7 @@
                       </div>
                     </div>
                     <div>
-                      <div style="width: 260px" class="flex justify-between">
+                      <div style="width: 300px" class="flex justify-between">
                         <h3 class="text-sm">David Snowden</h3>
                         <button class="text-error">
                           <img src="/icons/add.svg" alt="" />
@@ -257,7 +257,7 @@
                       </div>
                     </div>
                     <div>
-                      <div style="width: 260px" class="flex justify-between">
+                      <div style="width: 300px" class="flex justify-between">
                         <h3 class="text-sm">David Snowden</h3>
                         <button class="text-error">
                           <img src="/icons/add.svg" alt="" />
@@ -300,7 +300,7 @@
                       </div>
                     </div>
                     <div>
-                      <div style="width: 260px" class="flex justify-between">
+                      <div style="width: 300px" class="flex justify-between">
                         <h3 class="text-sm">David Snowden</h3>
                         <button class="text-error">
                           <img src="/icons/add.svg" alt="" />

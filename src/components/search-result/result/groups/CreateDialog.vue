@@ -33,7 +33,7 @@
         >
           <div
             class="dialog-header pt-5 pr-5"
-            @click="$parent.setIsOpenCase(false)"
+            @click="$parent.setIsOpenGroup(false)"
           >
             <button tabindex="0">
               <img src="/icons/close-white.svg" alt="" />
@@ -57,7 +57,7 @@
               <img src="/icons/back-btn.svg" alt="" />
             </button>
             <button class="btn btn-primary px-10" @click="nextStep">
-              Next
+              {{ currentStep == 1 ? "Create" : "Next" }}
             </button>
           </footer>
         </div>

@@ -1,7 +1,7 @@
 <template>
   <div class="flex-none hidden min-h-screen rounded-t-lg w-72 md:block bg-base-200">
     <div class="p-5">
-      <button class="w-full btn btn-outline">Upload VINs</button>
+      <button class="w-full btn btn-outline" @click="setIsOpenRls(true)">Upload VINs</button>
     </div>
     <div class="px-8 py-4 border-b-2 border-t-2 border-base-300">
       <h3 class="text-sm font-bold">Filters</h3>
@@ -44,5 +44,25 @@
         </div>
       </div>
     </div>
+    <VINDialog :setIsOpen="setIsOpenRls" :isOpen="isOpenRls" />
   </div>
 </template>
+<script>
+import { ref } from 'vue'
+import VINDialog from './UploadDialog'
+export default {
+  components: {
+    VINDialog,
+  },
+  setup() {
+    const isOpenRls = ref(false)
+
+    return {
+      isOpenRls,
+      setIsOpenRls(value) {
+        isOpenRls.value = value
+      },
+    }
+  },
+}
+</script>

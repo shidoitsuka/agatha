@@ -46,6 +46,10 @@
   height: 130px;
 }
 
+.dialog-group--bordered {
+  border: 1px solid #7735D5;
+}
+
 /* DIALOGS */
 .rounded-dialog {
   border-radius: 8px !important;
@@ -619,13 +623,13 @@
 .confirmed-card--container {
   margin-top: 20px;
   z-index: 2 !important;
-  width: 364px;
+  width: 410px;
   height: 155px;
   border-radius: 8px;
 }
 
 .possible-card--container {
-  width: 364px;
+  width: 410px;
   height: 155px;
   border-radius: 8px;
 }
