@@ -33,7 +33,7 @@
                       </div>
                     </div>
                     <div>
-                      <div style="width: 300px" class="flex justify-between">
+                      <div style="width: 18vw" class="flex justify-between">
                         <h3 class="text-sm">David Snowden</h3>
                       </div>
                       <p class="text-sm text-agatha-400">United States</p>
@@ -76,7 +76,7 @@
                       </div>
                     </div>
                     <div>
-                      <div style="width: 300px" class="flex justify-between">
+                      <div style="width: 18vw" class="flex justify-between">
                         <h3 class="text-sm">David Snowden</h3>
                         <button class="text-error">
                           <img src="/icons/close-red.svg" alt="" />
@@ -122,7 +122,7 @@
                       </div>
                     </div>
                     <div>
-                      <div style="width: 300px" class="flex justify-between">
+                      <div style="width: 18vw" class="flex justify-between">
                         <h3 class="text-sm">David Snowden</h3>
                         <button class="text-error">
                           <img src="/icons/close-red.svg" alt="" />
@@ -177,7 +177,7 @@
                       </div>
                     </div>
                     <div>
-                      <div style="width: 300px" class="flex justify-between">
+                      <div style="width: 18vw" class="flex justify-between">
                         <h3 class="text-sm">David Snowden</h3>
                         <button class="text-error">
                           <img src="/icons/add.svg" alt="" />
@@ -220,7 +220,7 @@
                       </div>
                     </div>
                     <div>
-                      <div style="width: 300px" class="flex justify-between">
+                      <div style="width: 18vw" class="flex justify-between">
                         <h3 class="text-sm">David Snowden</h3>
                         <button class="text-error">
                           <img src="/icons/add.svg" alt="" />
@@ -263,7 +263,7 @@
                       </div>
                     </div>
                     <div>
-                      <div style="width: 300px" class="flex justify-between">
+                      <div style="width: 18vw" class="flex justify-between">
                         <h3 class="text-sm">David Snowden</h3>
                         <button class="text-error">
                           <img src="/icons/add.svg" alt="" />
@@ -306,7 +306,7 @@
                       </div>
                     </div>
                     <div>
-                      <div style="width: 300px" class="flex justify-between">
+                      <div style="width: 18vw" class="flex justify-between">
                         <h3 class="text-sm">David Snowden</h3>
                         <button class="text-error">
                           <img src="/icons/add.svg" alt="" />

@@ -13,45 +13,75 @@
             <td>Country</td>
             <td>VIN</td>
           </tr>
-          <tr>
+          <tr class="three-dot-hide-trigger">
             <td class="vindb-table--left">China</td>
-            <td class="vindb-table--right">1B3HB48B37D340709</td>
+            <td class="vindb-table--right flex">
+              1B3HB48B37D340709
+              <img src="/icons/three-dots.svg" class="ml-auto three-dot-hide" alt="">
+            </td>
           </tr>
-          <tr class="vibdb-table--even">
+          <tr class="vibdb-table--even three-dot-hide-trigger">
             <td class="vindb-table--left">Tuvalu</td>
-            <td class="vindb-table--right">2C4RDGCG2DR524842</td>
+            <td class="vindb-table--right flex">
+              2C4RDGCG2DR524842
+              <img src="/icons/three-dots.svg" class="ml-auto three-dot-hide" alt="">
+            </td>
           </tr>
-          <tr>
+          <tr class="three-dot-hide-trigger">
             <td class="vindb-table--left">Togo</td>
-            <td class="vindb-table--right">5NPET4ACXAH684816</td>
+            <td class="vindb-table--right flex">
+              5NPET4ACXAH684816
+              <img src="/icons/three-dots.svg" class="ml-auto three-dot-hide" alt="">
+            </td>
           </tr>
-          <tr class="vibdb-table--even">
+          <tr class="vibdb-table--even three-dot-hide-trigger">
             <td class="vindb-table--left">North Marcedonia</td>
-            <td class="vindb-table--right">1D7RV1GT7BS644347</td>
+            <td class="vindb-table--right flex">
+              1D7RV1GT7BS644347
+              <img src="/icons/three-dots.svg" class="ml-auto three-dot-hide" alt="">
+            </td>
           </tr>
-          <tr>
+          <tr class="three-dot-hide-trigger">
             <td class="vindb-table--left">Bulgaria</td>
-            <td class="vindb-table--right">1GKEC63858J117519</td>
+            <td class="vindb-table--right flex">
+              1GKEC63858J117519
+              <img src="/icons/three-dots.svg" class="ml-auto three-dot-hide" alt="">
+            </td>
           </tr>
-          <tr class="vibdb-table--even">
+          <tr class="vibdb-table--even three-dot-hide-trigger">
             <td class="vindb-table--left">Marshall Islands</td>
-            <td class="vindb-table--right">1G1ND52J9XY184856</td>
+            <td class="vindb-table--right flex">
+              1G1ND52J9XY184856
+              <img src="/icons/three-dots.svg" class="ml-auto three-dot-hide" alt="">
+            </td>
           </tr>
-          <tr>
+          <tr class="three-dot-hide-trigger">
             <td class="vindb-table--left">Martinique</td>
-            <td class="vindb-table--right">1GCHK23255F859272</td>
+            <td class="vindb-table--right flex">
+              1GCHK23255F859272
+              <img src="/icons/three-dots.svg" class="ml-auto three-dot-hide" alt="">
+            </td>
           </tr>
-          <tr class="vibdb-table--even">
+          <tr class="vibdb-table--even three-dot-hide-trigger">
             <td class="vindb-table--left">Indonesia</td>
-            <td class="vindb-table--right">5NPEB4AC7CH458934</td>
+            <td class="vindb-table--right flex">
+              5NPEB4AC7CH458934
+              <img src="/icons/three-dots.svg" class="ml-auto three-dot-hide" alt="">
+            </td>
           </tr>
-          <tr>
+          <tr class="three-dot-hide-trigger">
             <td class="vindb-table--left">South Korea</td>
-            <td class="vindb-table--right">1FAHP2E88EG137748</td>
+            <td class="vindb-table--right flex">
+              1FAHP2E88EG137748
+              <img src="/icons/three-dots.svg" class="ml-auto three-dot-hide" alt="">
+            </td>
           </tr>
-          <tr class="vibdb-table--even">
+          <tr class="vibdb-table--even three-dot-hide-trigger">
             <td class="vindb-table--left">Philippines</td>
-            <td class="vindb-table--right">JTHGL1EF1B5015796</td>
+            <td class="vindb-table--right flex">
+              JTHGL1EF1B5015796
+              <img src="/icons/three-dots.svg" class="ml-auto three-dot-hide" alt="">
+            </td>
           </tr>
         </table>
         </div>

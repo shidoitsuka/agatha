@@ -11,7 +11,7 @@
             <img class="hidden md:block" src="/icons/search.svg" alt="">
             <input type="text" placeholder="Search" class="w-full p-0 rounded-l-none input focus:ring-0 bg-base-200">
             <div class="absolute top-0 right-0 rounded-l-none btn-group">
-              <img class="hidden md:block mr-3" src="/icons/bookmark-square.svg" alt="">
+              <img class="hidden md:block mr-3" src="/icons/bookmark-search.svg" alt="">
               <button class="px-8 rounded-l-none btn btn-primary">
                 <img class="block md:hidden" src="/icons/search.svg" alt="">
                 <span class="hidden capitalize md:block">Search</span>

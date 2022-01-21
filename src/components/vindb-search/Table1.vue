@@ -19,6 +19,7 @@
             <p><span style="color: #92929D; font: normal normal normal 14px/14px Mulish;">Make:</span> Bentley</p>
             <p><span style="color: #92929D; font: normal normal normal 14px/14px Mulish;">Manufactured in:</span> France</p>
           </div>
+          <img src="/icons/three-dots.svg" class="ml-auto mb-auto" alt="">
         </div>
       </td>
     </tr>

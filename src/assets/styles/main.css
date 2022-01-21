@@ -608,6 +608,14 @@
   z-index: 1 !important;
 }
 
+.three-dot-hide {
+  visibility: hidden;
+}
+
+.three-dot-hide-trigger:hover .three-dot-hide {
+  visibility: visible;
+}
+
 .primary--secondary-label {
   position: absolute;
   background: #44444F;
@@ -623,13 +631,13 @@
 .confirmed-card--container {
   margin-top: 20px;
   z-index: 2 !important;
-  width: 410px;
+  width: 24vw;
   height: 155px;
   border-radius: 8px;
 }
 
 .possible-card--container {
-  width: 410px;
+  width: 24vw;
   height: 155px;
   border-radius: 8px;
 }
