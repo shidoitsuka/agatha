@@ -631,14 +631,10 @@
 .confirmed-card--container {
   margin-top: 20px;
   z-index: 2 !important;
-  width: 24vw;
-  height: 155px;
   border-radius: 8px;
 }
 
 .possible-card--container {
-  width: 24vw;
-  height: 155px;
   border-radius: 8px;
 }
 

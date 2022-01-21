@@ -7,15 +7,15 @@
     <SidebarLeft />
     <div class="flex-grow px-8 mb-5 space-y-5">
       <div class="p-4 space-y-3 rounded-lg bg-base-200">
-        <div class="flex items-center justify-between px-5">
+        <div class="flex items-center justify-between md:pr-3">
           <div class="flex space-x-3">
             <h3>3 Confirmed Selected</h3>
           </div>
           <SaveEntityDialog />
         </div>
         <!-- <div v-for="item in confirmed_matches" :key="item.id"> -->
-        <div class="grid grid-cols-3">
-          <div>
+        <div class="grid md:grid-cols-12 md:grid-cols-4 lg:grid-cols-3">
+          <div class="md:mr-3 mb-8">
             <div class="primary--label">
               PRIMARY
             </div>
@@ -58,7 +58,7 @@
               </div>
             </div>
           </div>
-          <div>
+          <div class="md:mr-3 mb-8">
             <div class="primary--secondary-label">
               PRIMARY
             </div>
@@ -76,14 +76,14 @@
                       </div>
                     </div>
                     <div>
-                      <div style="width: 18vw" class="flex justify-between">
-                        <h3 class="text-sm">David Snowden</h3>
-                        <button class="text-error">
-                          <img src="/icons/close-red.svg" alt="" />
-                        </button>
-                      </div>
+                      <h3 class="text-sm">David Snowden</h3>
                       <p class="text-sm text-agatha-400">United States</p>
                       <p class="text-xs text-agatha-400">Username</p>
+                    </div>
+                    <div class="self-start" style="margin-left:auto;">
+                      <button class="text-error">
+                        <img src="/icons/close-red.svg" alt="" />
+                      </button>
                     </div>
                   </div>
                 </div>
@@ -104,7 +104,7 @@
               </div>
             </div>
           </div>
-          <div>
+          <div class="md:mr-3 mb-8">
             <div class="primary--secondary-label">
               PRIMARY
             </div>
@@ -122,14 +122,14 @@
                       </div>
                     </div>
                     <div>
-                      <div style="width: 18vw" class="flex justify-between">
-                        <h3 class="text-sm">David Snowden</h3>
-                        <button class="text-error">
-                          <img src="/icons/close-red.svg" alt="" />
-                        </button>
-                      </div>
+                      <h3 class="text-sm">David Snowden</h3>
                       <p class="text-sm text-agatha-400">United States</p>
                       <p class="text-xs text-agatha-400">Username</p>
+                    </div>
+                    <div class="self-start" style="margin-left:auto;">
+                      <button class="text-error">
+                        <img src="/icons/close-red.svg" alt="" />
+                      </button>
                     </div>
                   </div>
                 </div>
@@ -161,8 +161,8 @@
         </div>
         <!-- <div v-for="item in possible_matches" :key="item.id"> -->
         <!-- <SearchItem :item="item" :isPossible="true" /> -->
-        <div class="grid grid-cols-3">
-          <div class="mb-5">
+        <div class="grid md:grid-cols-12 md:grid-cols-4 lg:grid-cols-3">
+          <div class="md:mr-3 mb-8">
             <div class="bg-base-300 possible-card--container relative">
               <div class="p-3 space-y-3 confirmed-card--inner">
                 <div
@@ -177,14 +177,14 @@
                       </div>
                     </div>
                     <div>
-                      <div style="width: 18vw" class="flex justify-between">
-                        <h3 class="text-sm">David Snowden</h3>
-                        <button class="text-error">
-                          <img src="/icons/add.svg" alt="" />
-                        </button>
-                      </div>
+                      <h3 class="text-sm">David Snowden</h3>
                       <p class="text-sm text-agatha-400">United States</p>
                       <p class="text-xs text-agatha-400">Username</p>
+                    </div>
+                    <div class="self-start" style="margin-left:auto;">
+                      <button class="text-error">
+                        <img src="/icons/add.svg" alt="" />
+                      </button>
                     </div>
                   </div>
                 </div>
@@ -205,7 +205,7 @@
               </div>
             </div>
           </div>
-          <div>
+          <div class="md:mr-3 mb-8">
             <div class="bg-base-300 possible-card--container relative">
               <div class="p-3 space-y-3 confirmed-card--inner">
                 <div
@@ -220,14 +220,14 @@
                       </div>
                     </div>
                     <div>
-                      <div style="width: 18vw" class="flex justify-between">
-                        <h3 class="text-sm">David Snowden</h3>
-                        <button class="text-error">
-                          <img src="/icons/add.svg" alt="" />
-                        </button>
-                      </div>
+                      <h3 class="text-sm">David Snowden</h3>
                       <p class="text-sm text-agatha-400">United States</p>
                       <p class="text-xs text-agatha-400">Username</p>
+                    </div>
+                    <div class="self-start" style="margin-left:auto;">
+                      <button class="text-error">
+                        <img src="/icons/add.svg" alt="" />
+                      </button>
                     </div>
                   </div>
                 </div>
@@ -248,7 +248,7 @@
               </div>
             </div>
           </div>
-          <div>
+          <div class="md:mr-3 mb-8">
             <div class="bg-base-300 possible-card--container relative">
               <div class="p-3 space-y-3 confirmed-card--inner">
                 <div
@@ -263,14 +263,14 @@
                       </div>
                     </div>
                     <div>
-                      <div style="width: 18vw" class="flex justify-between">
-                        <h3 class="text-sm">David Snowden</h3>
-                        <button class="text-error">
-                          <img src="/icons/add.svg" alt="" />
-                        </button>
-                      </div>
+                      <h3 class="text-sm">David Snowden</h3>
                       <p class="text-sm text-agatha-400">United States</p>
                       <p class="text-xs text-agatha-400">Username</p>
+                    </div>
+                    <div class="self-start" style="margin-left:auto;">
+                      <button class="text-error">
+                        <img src="/icons/add.svg" alt="" />
+                      </button>
                     </div>
                   </div>
                 </div>
@@ -291,7 +291,7 @@
               </div>
             </div>
           </div>
-          <div>
+          <div class="md:mr-3 mb-8">
             <div class="bg-base-300 possible-card--container relative">
               <div class="p-3 space-y-3 confirmed-card--inner">
                 <div
@@ -306,14 +306,14 @@
                       </div>
                     </div>
                     <div>
-                      <div style="width: 18vw" class="flex justify-between">
-                        <h3 class="text-sm">David Snowden</h3>
-                        <button class="text-error">
-                          <img src="/icons/add.svg" alt="" />
-                        </button>
-                      </div>
+                      <h3 class="text-sm">David Snowden</h3>
                       <p class="text-sm text-agatha-400">United States</p>
                       <p class="text-xs text-agatha-400">Username</p>
+                    </div>
+                    <div class="self-start" style="margin-left:auto;">
+                      <button class="text-error">
+                        <img src="/icons/add.svg" alt="" />
+                      </button>
                     </div>
                   </div>
                 </div>
