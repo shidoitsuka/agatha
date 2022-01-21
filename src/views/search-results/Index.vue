@@ -1,25 +1,7 @@
 <template>
   <TabGroup>
     <div class="w-full px-3 mb-4 border-t md:px-8 border-base-300 bg-base-200">
-      <div class="py-4 mb-4">
-        <div class="w-full border rounded-lg border-agatha-100 form-control">
-          <div class="relative flex items-center space-x-2 rounded-lg bg-base-200">
-            <select ref="searchType" @change="typeChanged()" class="rounded-r-none bg-base-300 select focus:ring-0">
-              <option value="global" selected>Global Search</option>
-              <option value="profiler">Profiler Search</option>
-            </select>
-            <div v-show="isProfilerSearch" @click="showFilter()" class="hidden px-2 py-1 text-sm font-bold rounded md:block bg-secondary font-filter"><ButtonFilter /></div>
-            <img class="hidden md:block" src="/icons/search.svg" alt="">
-            <input type="text" placeholder="Search" class="w-full p-0 rounded-l-none input focus:ring-0 bg-base-200">
-            <div class="absolute top-0 right-0 rounded-l-none btn-group">
-              <button class="px-8 rounded-l-none btn btn-primary">
-                <img class="block md:hidden" src="/icons/search.svg" alt="">
-                <span class="hidden capitalize md:block">Search</span>
-              </button>
-            </div>
-          </div>
-        </div>
-      </div>
+      <GlobalSearchInput class="mt-3" />
       <div>
         <TabList class="tabs">
           <!-- <Tab v-slot="{selected}" as="template" class="tab pb-10">
@@ -81,7 +63,7 @@
 <script>
 import { TabGroup, TabList, Tab, TabPanels, TabPanel } from '@headlessui/vue'
 
-import ButtonFilter from '@/components/search-result/result/ButtonFilter.vue'
+import GlobalSearchInput from '@/components/global-search/GlobalSearchInput.vue'
 import ResultDocument from '@/components/search-result/result/documents/Index.vue'
 import ResultEntityCard from '@/components/search-result/result/entity/Index.vue'
 import ResultAvatar from '@/components/search-result/result/avatars/Index.vue'
@@ -106,7 +88,7 @@ export default {
     ResultAvatar,
     ResultMedia,
     ResultGroup,
-    ButtonFilter,
+    GlobalSearchInput,
   },
   data() {
     return {

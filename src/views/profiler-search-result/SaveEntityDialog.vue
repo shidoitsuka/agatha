@@ -46,6 +46,48 @@
             </div>
           </div>
         </div>
+        <div class="p-2 bg-base-300 saveentity-dialog--card">
+          <div class="saveentity-dialog--exit-btn">
+            <img src="/icons/close-red.svg" alt="" srcset="" />
+          </div>
+          <div class="divide-gray-600 md:grid-cols-3">
+            <div class="flex items-center">
+              <div class="avatar mr-2">
+                <div class="rounded-full">
+                  <img
+                    class="saveentity-dialog--card-img"
+                    src="http://daisyui.com/tailwind-css-component-profile-1@94w.png"
+                  />
+                </div>
+              </div>
+              <div>
+                <h3 class="saveentity-dialog--card-title">David Snowden</h3>
+                <p class="saveentity-dialog--card-subtitle">United States</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="p-2 bg-base-300 saveentity-dialog--card">
+          <div class="saveentity-dialog--exit-btn">
+            <img src="/icons/close-red.svg" alt="" srcset="" />
+          </div>
+          <div class="divide-gray-600 md:grid-cols-3">
+            <div class="flex items-center">
+              <div class="avatar mr-2">
+                <div class="rounded-full">
+                  <img
+                    class="saveentity-dialog--card-img"
+                    src="http://daisyui.com/tailwind-css-component-profile-1@94w.png"
+                  />
+                </div>
+              </div>
+              <div>
+                <h3 class="saveentity-dialog--card-title">David Snowden</h3>
+                <p class="saveentity-dialog--card-subtitle">United States</p>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
       <div class="saveentity-dialog--footer flex justify-between px-10 py-3">
         <div>

@@ -78,6 +78,9 @@
                     <div>
                       <div style="width: 300px" class="flex justify-between">
                         <h3 class="text-sm">David Snowden</h3>
+                        <button class="text-error">
+                          <img src="/icons/close-red.svg" alt="" />
+                        </button>
                       </div>
                       <p class="text-sm text-agatha-400">United States</p>
                       <p class="text-xs text-agatha-400">Username</p>
@@ -121,6 +124,9 @@
                     <div>
                       <div style="width: 300px" class="flex justify-between">
                         <h3 class="text-sm">David Snowden</h3>
+                        <button class="text-error">
+                          <img src="/icons/close-red.svg" alt="" />
+                        </button>
                       </div>
                       <p class="text-sm text-agatha-400">United States</p>
                       <p class="text-xs text-agatha-400">Username</p>

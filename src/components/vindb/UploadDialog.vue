@@ -62,14 +62,14 @@
                     style="background: #18181F;"
                   >
                     <div class="flex space-x-4">
-                      <img src="/icons/rl.svg" alt="" />
+                      <img src="/icons/csv.svg" alt="" />
                       <div>
                         <h5>Relationship.csv</h5>
                         <span class="text-xs text-agatha-200">5.1mb</span>
                       </div>
                     </div>
                     <button>
-                      <img src="/icons/delete.svg" alt="" />
+                      <img src="/icons/delete-soft.svg" alt="" />
                     </button>
                   </div>
                 </div>
@@ -110,14 +110,14 @@
                     style="background: #18181F;"
                   >
                     <div class="flex space-x-4">
-                      <img src="/icons/rl.svg" alt="" />
+                      <img src="/icons/csv.svg" alt="" />
                       <div>
                         <h5>VIN.csv</h5>
                         <span class="text-xs text-agatha-200">5.1mb</span>
                       </div>
                     </div>
                     <button>
-                      <img src="/icons/delete.svg" alt="" />
+                      <img src="/icons/delete-soft.svg" alt="" />
                     </button>
                   </div>
                 </div>

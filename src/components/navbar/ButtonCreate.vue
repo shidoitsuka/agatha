@@ -36,7 +36,7 @@
         </a>
       </li>
       <li>
-        <a as="button" class="flex space-x-4">
+        <a as="button" @click="setIsOpenInfiltration(true)" class="flex space-x-4">
           <img class="w-8 h-8 md:w-10 md:h-10" src="/icons/infiltration.svg" alt="">
           <div>
             <h3 class="text-sm md:text-base">Infiltration</h3>
@@ -45,7 +45,7 @@
         </a>
       </li>
       <li>
-        <a as="button" class="flex space-x-4">
+        <a as="button" @click="setIsOpenCyber(true)" class="flex space-x-4">
           <img class="w-8 h-8 md:w-10 md:h-10" src="/icons/cyber-mission.svg" alt="">
           <div>
             <h3 class="text-sm md:text-base">Cyber Mission</h3>
@@ -59,6 +59,8 @@
   <DialogCase :is-open="isOpenCase" :set-is-open="setIsOpenCase" />
   <DialogAvatar :is-open="isOpenAvatar" :set-is-open="setIsOpenAvatar" />
   <DialogEntity :is-open="isOpenEnitity" :set-is-open="setIsOpenEntity" />
+  <DialogCyber :is-open="isOpenCyber" :set-is-open="setIsOpenCyber" />
+  <DialogInfiltration :is-open="isOpenInfiltration" :set-is-open="setIsOpenInfiltration" />
 </template>
 
 <script>
@@ -66,17 +68,23 @@ import { ref } from 'vue'
 import DialogCase from './create/case/Dialog.vue'
 import DialogAvatar from './create/avatar/Dialog.vue'
 import DialogEntity from './create/entity/Dialog.vue'
+import DialogCyber from './create/cyber/Dialog.vue'
+import DialogInfiltration from './create/infiltration/Dialog.vue'
 
 export default {
   setup() {
     const isOpenCase = ref(false)
     const isOpenAvatar = ref(false)
     const isOpenEnitity = ref(false)
+    const isOpenCyber = ref(false)
+    const isOpenInfiltration = ref(false)
 
     return {
       isOpenCase,
       isOpenAvatar,
       isOpenEnitity,
+      isOpenCyber,
+      isOpenInfiltration,
       setIsOpenCase(value) {
         isOpenCase.value = value
       },
@@ -86,6 +94,12 @@ export default {
       setIsOpenEntity(value) {
         isOpenEnitity.value = value
       },
+      setIsOpenCyber(value) {
+        isOpenCyber.value = value
+      },
+      setIsOpenInfiltration(value) {
+        isOpenInfiltration.value = value
+      },
     }
   },
 
@@ -93,6 +107,8 @@ export default {
     DialogCase,
     DialogAvatar,
     DialogEntity,
+    DialogCyber,
+    DialogInfiltration,
   },
 
   data() {

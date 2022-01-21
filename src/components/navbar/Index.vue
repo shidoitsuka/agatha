@@ -4,7 +4,7 @@
       <HamburgerMenu />
     </div>
     <div class="flex-1 hidden max-w-lg px-2 mx-2 space-x-4 lg:flex">
-      <img src="@/assets/logo.png" alt="agatha" />
+      <img src="/icons/logo.svg" alt="agatha" />
       <button class="btn btn-square btn-ghost bg-base-300" @click="$emit('hamClick')">
         <svg
           xmlns="http://www.w3.org/2000/svg"
