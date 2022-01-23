@@ -1,24 +1,34 @@
 # agatha-frontend
 
 ## Project setup
-```
-npm install
-```
-
-### Compiles and hot-reloads for development
-```
-npm run serve
+```sh
+$ npm install
+# or
+$ yarn install
 ```
 
-### Compiles and minifies for production
+### Developing
+If you are developing the application, use
+```sh
+$ npm run serve
+# or
+$ yarn serve
 ```
-npm run build
+it will start the app both at your localhost and local IP network which later you can see at your console (port 8080 by default)
+
+
+### Production
+Once you're ready for production, simply run
+```sh
+$ npm run build
+# or
+$ yarn build
 ```
+and then it will compile the app into `/dist` directory and ready for production.
 
 ### Lints and fixes files
+```sh
+$ npm run lint
+# or
+$ yarn lint
 ```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
